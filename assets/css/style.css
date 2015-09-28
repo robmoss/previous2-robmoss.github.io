@@ -114,7 +114,7 @@ nav.site li {
 }
 nav.site a {
     display: inline-block;
-    vertical-align: center;
+    vertical-align: middle;
     /* Note: the vertical padding and hover borders are related */
     margin: 0.5em; padding: 0.5em 0.5em 0.25em 0.5em;
 }
