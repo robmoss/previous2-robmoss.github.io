@@ -1,0 +1,104 @@
+span.plot, span.plot svg { display: block; margin: 0 auto; }
+span.plot { margin-top: 2em; }
+p.caption { text-align: center; }
+.showjs {
+    display: none;
+}
+
+/*
+ * Lines and paths
+ */
+
+line.grid {
+    stroke-width: 0.1;
+}
+
+.axis {
+    stroke-width: 0.8;
+}
+.xTicks, .yTicks {
+    stroke-width: 0.6;
+}
+
+path {
+    stroke: #268bd2;
+    stroke-width: 2;
+    fill: none;
+}
+
+path.model {
+    stroke: #859900;
+    stroke-width: 3;
+    fill: none;
+}
+
+path.hull {
+    stroke: none;
+    fill: #268bd2;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+rect.model { fill: #859900; }
+rect.exp { fill: #268bd2; }
+
+#highlight {
+    stroke: #dc322f;
+    stroke-width: 5;
+}
+
+/*
+ * Tooltips
+ */
+
+div.tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 0.5em;
+  border: 0px;
+  border-radius: 0.75em;
+}
+
+/*
+ * Tables
+ */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+table caption {
+    margin-bottom: 1em;
+}
+
+th, td {
+    padding: 0.1em 0.25em;
+    padding-right: 1em;
+}
+
+th, td.toggle { text-align: center; }
+td { text-align: left; }
+td:first-child, td:last-child { white-space: nowrap; }
+
+div#table {
+    position: fixed;
+    top: 4em;
+    left: 0em;
+    width: auto;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+}
+
+div.tooltip { background: #eee8d5; }
+div#table { background: #eee8d5; border: 5px solid #657b83; border-left: 0; }
+line, .axis, .xTicks, .yTicks { stroke: #586e75; }
+text { fill: #586e75; }
+td.showyes { background-color: lightgreen; }
+td.showno { background-color: pink; }
+tr.odd { background: #eee8d5; }
+tr.even { background: #fdf6e3; }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+{% capture title %}
+{% if page.title %}
+  {{ page.title }}
+{% elsif page.category %}
+  {{ page.category | capitalize }}
+{% else %}
+  {{ site.title }}
+{% endif %}
+{% endcapture %}
+    <title>{{ title }}</title>
+    <link rel="alternate" type="application/rss+xml" title="RSS feed"
+          href="{{ site.baseurl }}/feed.xml">
+    <link rel="stylesheet" type="text/css"
+          href="http://fonts.googleapis.com/css?family=Droid%2BSans%7CDroid%2BSerif%7CRaleway" />
+    <link rel="stylesheet" type="text/css"
+          href="{{ site.baseurl }}{{ site.url_css }}/style.css" />
+    <link rel="stylesheet" type="text/css" media="not print, (monochrome)"
+          href="{{ site.baseurl }}{{ site.url_css }}/colour.css" />
+    <link rel="stylesheet" type="text/css" media="print, (monochrome)"
+          href="{{ site.baseurl }}{{ site.url_css }}/print.css" />
+    {% if page.js_libs contains "D3" %}
+    <link rel="stylesheet" type="text/css"
+          href="{{ site.baseurl }}{{ site.url_css }}/plot.css" />
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"
+            charset="utf-8"></script>
+    {% endif %}
+    {% if page.js_libs contains "MathJax" %}
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      TeX: { equationNumbers: {
+        autoNumber: "AMS",
+        extensions: ["color.js"],
+        formatID: function (n) {return 'mjx-eqn-'+String(n).replace(/[:'"<>&]/g,"")},
+        formatURL: function (id) {return '#'+escape(id)},
+        useLabelIds: true
+      } }
+      });
+    </script>
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
+  </head>
+<body>
+
+  {% unless page.hide contains "navbar" %}
+  <nav class="site">
+    <ul>
+    {% capture page_cat %}{{ page.category | downcase }}{% endcapture %}
+    {% capture page_nav %}{{ page.navid | downcase }}{% endcapture %}
+    {% for link_hash in site.navlinks %}
+    {% for link in link_hash %}
+    {% capture link_cat %}{{ link[0] | downcase }}{% endcapture %}
+    {% if page_nav == link_cat or page_cat == link_cat %}
+    <li>
+      <a class="active"
+         title="{{ link[0] }}"
+         href="{{ site.baseurl }}{{ link[1].url }}">
+        <img alt="{{ link[0] }}"
+             src="{{ site.baseurl }}{{ site.url_img }}/{{ link[1].img }}">
+      </a>
+    </li>
+    {% break %}
+    {% else %}
+    <li>
+      <a title="{{ link[0] }}"
+         href="{{ site.baseurl }}{{ link[1].url }}">
+        <img alt="{{ link[0] }}"
+             src="{{ site.baseurl }}{{ site.url_img }}/{{ link[1].img }}">
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    </ul>
+  </nav>
+  {% endunless %}
+
+  {% unless page.hide contains "title" or page.is_post %}
+  <header class="site"><h1 class="title">{{ title }}</h1>
+    {% if page.date %}<span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>{% endif %}
+  </header>
+  {% endunless %}
+
+  {{ content }}
+
+  {% unless page.hide contains "footer" %}
+  <footer class="site">
+    <a href="http://www.ardischeng.com/">icons by ardis</a>
+    /
+    {% if site.theme_url and site.theme_name %}
+    <a href="{{ site.theme_url }}">{{ site.theme_name }}</a>
+    /{% endif %}
+    <a href="http://validator.w3.org/check/referer">html</a>
+    /
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>
+  </footer>
+  {% endunless %}
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{% if include.tags and include.tags.size > 0 %}
+{% capture tags %}
+  {% for tag in include.tags %}
+    {{ tag | replace: ' ', '&#32;' }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+&#8212;
+{% for tag in sortedtags %}
+  {% assign tagname = tag | upcase %}
+  {% unless tag == tagname %}
+    {% assign tagname = tag | capitalize %}
+  {% endunless %}
+  {% if include.category %}
+  <span class="tag"><a
+     href="{{ site.baseurl }}{{ site.url_blog }}/archive/{{ include.category }}/tag/#{{ tag }}">{{ tagname }}</a></span>
+  {% else %}
+  <span class="tag"><a
+     href="{{ site.baseurl }}{{ site.url_blog }}/archive/tag/#{{ tag }}">{{ tagname }}</a></span>
+  {% endif %}
+{% endfor %}
+{% endif %}

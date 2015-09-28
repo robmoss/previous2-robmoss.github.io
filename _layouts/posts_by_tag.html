@@ -1,0 +1,45 @@
+---
+layout: page
+---
+{% unless page.category %}
+  {% assign posts = site.posts %}
+{% else %}
+  {% assign posts = site.categories[page.category] %}
+{% endunless %}
+
+{% capture tags %}
+{% for post in posts %}
+  {% for tag in post.tags %}
+    {{ tag | replace: ' ', '&#32;' }}
+  {% endfor %}
+{% endfor %}
+{% endcapture %}
+
+{% assign sortedtags = tags | split:' ' | sort %}
+
+{% if content %}
+{{ content }}
+{% endif %}
+
+<nav class="post-list">
+<ul>
+{% assign prevtag = "" %}
+{% for t in sortedtags %}
+  {% capture tag %}{{ t | replace: '&#32;', ' ' }}{% endcapture %}
+  {% unless tag == prevtag %}
+
+  {% assign tagname = tag | upcase %}
+  {% unless tag == tagname %}
+    {% assign tagname = tag | capitalize %}
+  {% endunless %}
+  <h2 id="{{ tag }}" class="title">{{ tagname }}</h2>
+  {% for post in posts %}
+    {% if post.tags contains tag %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  {% assign prevtag = tag %}
+  {% endunless %}
+{% endfor %}
+</ul>
+</nav>

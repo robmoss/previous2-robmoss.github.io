@@ -1,0 +1,53 @@
+---
+layout: page
+---
+{% unless page.category %}
+  {% assign posts = site.posts %}
+{% else %}
+  {% assign posts = site.categories[page.category] %}
+{% endunless %}
+{% if page.max_posts %}
+  {% assign post_limit = page.max_posts %}
+{% else %}
+  {% assign post_limit = site.max_posts %}
+{% endif %}
+
+{% if content %}
+{{ content }}
+{% endif %}
+
+<section class="post-list">
+{% for post in posts limit:post_limit %}
+<article class="excerpt">
+  <header>
+    <h2 class="title">{{ post.title }}</h2>
+    {% include links_to_cats post_cat=post.categories %}
+    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    {% include links_to_tags tags=post.tags category=page.category %}
+  </header>
+
+  {{ post.excerpt }}
+
+  <footer>
+    {% if post.excerpt != post.content %}
+    <span class="more">
+      <a href="{{ site.baseurl }}{{ post.url }}">Read more &#187;</a>
+    </span>
+    {% else %}
+    <span class="more">
+      <a href="{{ site.baseurl }}{{ post.url }}">View post &#187;</a>
+    </span>
+    {% endif %}
+    {% if forloop.last %}
+    <span class="allposts">
+      {% if page.category %}
+      <a href="{{ site.baseurl }}{{ site.url_blog }}/archive/{{ page.category }}">&#171; archive &#187;</a>
+      {% else %}
+      <a href="{{ site.baseurl }}{{ site.url_blog }}/archive">&#171; archive &#187;</a>
+      {% endif %}
+    </span>
+    {% endif %}
+  </footer>
+</article>
+{% endfor %}
+</section>

@@ -1,0 +1,114 @@
+# The site title, used for pages with a title and in RSS feeds.
+title: "Dr Rob Moss"
+# The (absolute) URL at which the site can be found (e.g., used in RSS feeds).
+url: "http://robmoss.github.io"
+# A brief description of the site (e.g., used in RSS feeds).
+description: ""
+
+# Don't publish the README or LICENSE.
+exclude: ['README.md', 'LICENSE']
+
+# Support relative links for project pages on github and when serving the
+# site locally, as per https://github.com/mojombo/jekyll/issues/332.
+# For example, set to "/project-name" (without a trailing slash).
+baseurl: ""
+
+# The default colour theme for every page and post.
+theme: "solarized-light"
+# Define a theme name and URL to have a link appear in the page footer.
+theme_name: "solarized"
+theme_url: "http://ethanschoonover.com/solarized"
+
+# The URLs for site-wide files such as stylesheets.
+url_css: "/assets/css"
+url_img: "/assets/images"
+url_js: "/assets/js"
+
+# Set to "/some/path" if the blog is hosted in a sub-directory of this site.
+url_blog: ""
+# Set to true if blog posts are listed (i.e., recent posts, posts by date,
+# and posts by tag) on a per-category basis.
+listed_by_cat: false
+
+# The URL for each blog post, as per http://jekyllrb.com/docs/permalinks/.
+permalink: /:year/:month/:day/:title
+
+# The time zone for site generation and identifying future posts.
+timezone: "Australia/Melbourne"
+
+# Links that appear in the navigation bar.
+navlinks:
+  - Home:
+      url: "/"
+      img: "home.png"
+  - Infectious Diseases:
+      url: "/disease"
+      img: "influenza.png"
+  - Renal Physiology:
+      url: "/kidney"
+      img: "kidney.png"
+  - Teaching:
+      url: "/teaching"
+      img: "teaching.png"
+  - Models and Tools:
+      url: "/model"
+      img: "model.png"
+  - Portfolio:
+      url: "/portfolio"
+      img: "info.png"
+
+# http://stackoverflow.com/a/23555679
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: "post"  # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: "posts" # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+
+# Whether to display previous post and next post links for each post.
+show_prev_next: true
+# The number of posts to show when using the `posts_by_category` layout.
+max_posts: 3
+# The number of posts to include in the RSS feed.
+feed_posts: 10
+# Whether to display posts with dates in the future.
+future: false
+
+# The local server port to use when serving the site locally.
+port: 4000
+# Disable custom plugins.
+safe: true
+
+# Use kramdown because it correctly interprets LaTeX mathematics notation.
+markdown: kramdown
+
+# The default license under which a post is published.
+default_license: CC BY-SA
+
+# The list of licenses under which a post can be published.
+licenses:
+  - name: CC BY
+    url: http://creativecommons.org/licenses/by/4.0/
+    img: http://i.creativecommons.org/l/by/4.0/80x15.png
+  - name: CC BY-SA
+    url: http://creativecommons.org/licenses/by-sa/4.0/
+    img: http://i.creativecommons.org/l/by-sa/4.0/80x15.png
+  - name: CC BY-NC
+    url: http://creativecommons.org/licenses/by-nc/4.0/
+    img: http://i.creativecommons.org/l/by-nc/4.0/80x15.png
+  - name: CC BY-NC-ND
+    url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+    img: http://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png
+  - name: CC BY-NC-SA
+    url: http://creativecommons.org/licenses/by-nc-sa/4.0/
+    img: http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png
+  - name: CC BY-ND
+    url: http://creativecommons.org/licenses/by-nd/4.0/
+    img: http://i.creativecommons.org/l/by-nd/4.0/80x15.png

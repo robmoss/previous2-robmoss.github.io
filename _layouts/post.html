@@ -1,0 +1,86 @@
+---
+layout: page
+---
+
+<article class="post">
+  <header class="post">
+    <h2 class="title">{{ page.title }}</h2>
+    <span class="date">{{ page.date | date: "%b %-d, %Y" }}</span>
+    {% assign category = page.categories[0] %}
+    {% include links_to_tags tags=page.tags category=category %}
+    {% if page.galleries %}
+    <nav class="photo-links">
+      <img src="{{ site.base_url}}{{ site.url_img }}/photos.png"
+           alt="Photos" title="Photos" />
+      {% for url_hash in page.galleries %}
+      <a href="{{ url_hash[1] }}">{{ url_hash[0] }}</a>
+      {% endfor %}
+    </nav>
+    {% endif %}
+  </header>
+
+{% if site.show_prev_next %}
+  <nav class="post">
+  {% assign prev_post = page.previous %}
+  {% for ign_post in site.posts %}
+    {% if prev_post %}
+    <div class="prev">
+      <a href="{{ site.baseurl }}{{ prev_post.url }}" rel="prev"
+               title="{{ prev_post.title }}">&laquo;</a></div>
+    {% break %}
+    {% else %}
+      {% assign prev_post = prev_post.previous %}
+    {% endif %}
+  {% endfor %}
+  {% assign next_post = page.next %}
+  {% for ign_post in site.posts %}
+    {% if next_post %}
+    <div class="next">
+      <a href="{{ site.baseurl }}{{ next_post.url }}" rel="next"
+               title="{{ next_post.title }}">&raquo;</a></div>
+    {% break %}
+    {% else %}
+      {% assign next_post = next_post.next %}
+    {% endif %}
+  {% endfor %}
+  </nav>
+{% endif %}
+
+{{ content }}
+
+{% if page.comments %}
+<section class="comment-list">
+  {% if page.comments.size == 1 %}<h3 class="title">1 comment</h3>
+  {% else %}<h3 class="title">{{ page.comments.size }} comments</h3>
+  {% endif %}
+  {% for comment in page.comments %}
+    <div class="comment"><p>{{ comment.text }}<br/>
+    <span class="author">{{ comment.author }}</span>
+    <span class="date">{{ comment.date }}</span></p>
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+
+{% assign post_license = site.default_license %}
+{% if page.license %}
+{% assign post_license = page.license %}
+{% endif %}
+{% if post_license %}
+{% for license in site.licenses %}
+    {% if license.name == post_license %}
+  <footer class="post">
+      <span>&nbsp;</span>
+      <span class="license">
+        <a rel="license" href="{{ license.url }}">
+          <img src="{{ license.img }}" alt="{{ license.name }}"
+               title="Licensed under a {{ license.name }} international license." />
+        </a>
+      </span>
+  </footer>{% break %}
+  {% endif %}
+{% endfor %}
+{% endif %}
+
+</article>

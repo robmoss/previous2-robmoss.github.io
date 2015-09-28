@@ -1,0 +1,37 @@
+<header class="blurb">
+
+<address>
+  <span class="position">
+    Research Fellow <br>
+    <a href="http://epi.unimelb.edu.au/">Centre for Epidemiology and
+      Biostatistics</a><br>
+    <a href="http://pgh.unimelb.edu.au/">Melbourne School of
+      Population and Global Health</a><br>
+    The University of Melbourne
+  </span>
+  <span class="location">
+    Office 349<br>
+    207 Bouverie St<br>
+    (03) 8344 9327<br>
+    rgmoss AT unimelb edu au
+  </span>
+</address>
+
+<hr class="separator">
+
+<p>
+Mathematical modelling of biological and physiological systems:<br>
+&#8226; Infectious disease epidemics to inform health-care policy
+(<span class="more"><a href="{{ site.baseurl }}/disease">details</a></span>);
+and<br>
+&#8226; Neurohormonal regulation of renal water and sodium excretion
+(<span class="more"><a href="{{ site.baseurl }}/kidney">details</a></span>).
+</p>
+
+<hr class="separator">
+
+<nav class="docs">
+  <a href="{{ site.baseurl }}/portfolio/cv_online.pdf">Curriculum Vitæ</a>
+  / <a href="{{ site.baseurl }}/pubs">Publications</a>
+</nav>
+</header>

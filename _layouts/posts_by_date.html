@@ -1,0 +1,30 @@
+---
+layout: page
+---
+{% assign date_fmt = '%b %Y' %}
+{% assign prev_date = '' %}
+
+{% unless page.category %}
+  {% assign posts = site.posts %}
+{% else %}
+  {% assign posts = site.categories[page.category] %}
+{% endunless %}
+
+{% if content %}
+{{ content }}
+{% endif %}
+
+<nav class="post-list">
+<ul>
+{% for post in posts %}
+  {% capture this_date %}{{ post.date | date: date_fmt }}{% endcapture %}
+  {% if prev_date != this_date %}
+    <h2 class="title">{{ post.date | date: date_fmt }}</h2>
+  {% endif %}
+  {% capture prev_date %}{{ this_date }}{% endcapture %}
+  <li>
+    <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+</nav>
