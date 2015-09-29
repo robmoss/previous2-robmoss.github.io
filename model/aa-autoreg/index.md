@@ -78,7 +78,7 @@ $$
   \begin{align}
   \Pi(x) &= 2.1 \cdot C_p(x) + 0.16 \cdot \left[ C_p(x) \right]^2
     + 0.009 \cdot \left[ C_p(x) \right]^3 \\
-  C_p(x) &= C_p(0) \times \frac{Q_G(x)}{Q_G(0)} \\
+  C_p(x) &= C_p(0) \times \frac{Q_G(0)}{Q_G(x)} \\
   C_p(0) &= 5.5 \text{ (plasma protein concentration, g/dL)}
   \end{align}
 $$
