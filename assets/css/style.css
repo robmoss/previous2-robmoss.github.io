@@ -147,6 +147,7 @@ footer.site {
 .blurb p { display: inline-block; margin: 0.5em 0; padding: 0; }
 .blurb, blurb * { font-size: 90%; line-height: 1.25em; }
 .blurb { border-radius: 1em; }
+.blurb nav img { margin: 1em 1em 0em 1em; }
 address span { display: inline-block; }
 address .position { text-align: left; padding-right: 2em; }
 address .location { text-align: right; padding-left: 2em; }

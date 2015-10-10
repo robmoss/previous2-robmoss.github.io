@@ -11,6 +11,13 @@ A rather simple and plain jekyll-generated site.
   are distributed under the terms of the
   [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license.
 
-* The images in `assets/images` are distributed under the terms of the
+* The images in `assets/images` were created by
+  [Ardis Cheng](http://www.ardischeng.com/) and are distributed under the
+  terms of the
   [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)
-  license.
+  license, with the following exception:
+
+  * The Bitbucket and Github logos (`logo-bb.png` and `logo-gh.png`) are from
+    the [Zocial](https://github.com/smcllns/css-social-buttons) icon theme by
+    Sam Collins and are distributed under the terms of the
+    [MIT License](http://opensource.org/licenses/mit-license.php).
