@@ -82,6 +82,17 @@ p.img img { max-width: 100%; }
 }
 
 /*****************************************************************************
+  Rules for small screens (e.g., mobile phones)
+*****************************************************************************/
+
+@media not all and (min-width: 40em) {
+    /* Ensure the text doesn't touch the screen edges. */
+    body { margin-left: 0.5em; margin-right: 0.5em; }
+    /* Avoid justifying text, the word spacing looks terrible. */
+    p, article, ul, ol { text-align: left; }
+}
+
+/*****************************************************************************
   List appearance
 *****************************************************************************/
 
