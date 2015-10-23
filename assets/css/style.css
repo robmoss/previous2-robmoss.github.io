@@ -160,8 +160,9 @@ footer.site {
 .blurb { border-radius: 1em; }
 .blurb nav img { margin: 1em 1em 0em 1em; }
 address span { display: inline-block; }
-address .position { text-align: left; padding-right: 2em; }
-address .location { text-align: right; padding-left: 2em; }
+address .position { float: left; text-align: left; padding-right: 2em; }
+address .location { float: right; text-align: right; padding-left: 2em; }
+address { clear: both; overflow: hidden; }
 
 /*****************************************************************************
   Blog post list appearance
