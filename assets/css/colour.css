@@ -11,3 +11,4 @@ nav.site a { border-color: #2aa198; }
 footer.site { border-color: #eee8d5; }
 .post-list .title { border-color: #eee8d5; }
 .highlight { border-color: #657b83; }
+.post-list :target { color: #d33682; }
