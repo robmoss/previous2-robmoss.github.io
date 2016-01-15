@@ -90,10 +90,27 @@ p.img img { max-width: 100%; }
     body { margin-left: 0.5em; margin-right: 0.5em; }
     /* Avoid justifying text, the word spacing looks terrible. */
     p, article, ul, ol { text-align: left; }
+    /* Show the previous-post and next-post links on either edge. */
+    .prev { float: left; margin-left: -0.5rem; }
+    .next { float: right; margin-right: -0.5rem; }
+    /* Ensure there is vertical space around these links. */
+    .prev, .next { margin-top: 1rem; margin-bottom: 1rem; }
+    nav.post + * { clear: both; }
 }
 
 /*****************************************************************************
-  List appearance
+  Rules for larger screens
+*****************************************************************************/
+
+@media all and (min-width: 40em) {
+    /* Show the previous-post and next-post links in fixed positions. */
+    .prev, .next { position: fixed; top: 50%; }
+    .prev { left: 0; }
+    .next { right: 0; }
+}
+
+/*****************************************************************************
+  list appearance
 *****************************************************************************/
 
 ul, ol { list-style: none; text-align: justify; }
@@ -207,17 +224,14 @@ footer .license { float: right; }
   height in order for the characters to appear vertically centred.
 *****************************************************************************/
 .prev, .next {
-    position: fixed; top: 50%;
     width: 2.5rem; height: 2.5rem;
     text-align: center;
     vertical-align: middle;
     line-height: 2.25rem;
     font-size: 2.5rem; }
-.prev { left: 0;
-        border-top-right-radius: 0.75rem;
+.prev { border-top-right-radius: 0.75rem;
         border-bottom-right-radius: 0.75rem; }
-.next { right: 0;
-        border-top-left-radius: 0.75rem;
+.next { border-top-left-radius: 0.75rem;
         border-bottom-left-radius: 0.75rem; }
 /* Don't underline the previous and next links. */
 nav.post a:link, nav.post a:hover { text-decoration: none; }
