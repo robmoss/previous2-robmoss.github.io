@@ -40,6 +40,48 @@ navid: Portfolio
 
 <ul class="pubs">
       <li class="epi"><a
+        href="http://dx.doi.org/10.1111/irv.12376">Forecasting influenza
+        outbreak dynamics in Melbourne from Internet search query surveillance
+        data</a><br/>
+        <span class="author">
+           Moss R, Zarebski A, Dawson P, McCaw JM
+        </span><br/>
+        <span class="journal">
+          <b>Influenza Other Respir Viruses</b>, accepted Jan 2016
+        </span><br/>
+        <span class="abstract">
+        <strong>Background:</strong>
+        Accurate forecasting of seasonal influenza epidemics is of great
+        concern to healthcare providers in temperate climates, since these
+        epidemics vary substantially in their size, timing and duration from
+        year to year, making it a challenge to deliver timely and
+        proportionate responses.
+        Previous studies have shown that Bayesian estimation techniques can
+        accurately predict when an influenza epidemic will peak many weeks in
+        advance, using existing surveillance data, but these methods must be
+        tailored both to the target population and to the surveillance system.
+        <br/><strong>Objectives:</strong>
+        Our aim was to evaluate whether forecasts of similar accuracy could be
+        obtained for metropolitan Melbourne (Australia).
+        <br/><strong>Methods:</strong>
+        We used the bootstrap particle filter and a mechanistic infection
+        model to generate epidemic forecasts for metropolitan Melbourne
+        (Australia) from weekly internet search query surveillance data
+        reported by Google Flu Trends for 2006–14.
+        <br/><strong>Results and Conclusions:</strong>
+        Optimal observation models were selected from hundreds of candidates
+        using a novel approach that treats forecasts akin to receiver
+        operating characteristic (ROC) curves.
+        We show that the timing of the epidemic peak can be accurately
+        predicted 4–6 weeks in advance, but that the magnitude of the epidemic
+        peak and the overall burden are much harder to predict.
+        We then discuss how the infection and observation models and the
+        filtering process may be refined to improve forecast robustness,
+        thereby improving the utility of these methods for healthcare decision
+        support.
+        </span>
+      </li>
+      <li class="epi"><a
         href="http://dx.doi.org/10.1371/journal.pcbi.1004334">Innate immunity
         and the inter-exposure interval determine the dynamics of secondary
         influenza virus infection and explain observed viral
