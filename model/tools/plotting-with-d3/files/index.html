@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Example Plot</title>
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"
+            charset="utf-8"></script>
+    <style media="screen" type="text/css">
+      /* Display page content in a centred column. */
+      #content { max-width: 60em; margin: 0 auto; }
+      /* Centre headings and figure captions. */
+      #content, h1, .caption { text-align: center; }
+      /* Draw all lines in black, by default. */
+      line { stroke: black; }
+      /* Draw very thin grid lines. */
+      .grid { stroke-width: 0.1; }
+      /* Draw thicker lines for the axes. */
+      .axis { stroke-width: 0.8; }
+      /* Draw slightly thinner lines for the axis ticks. */
+      .xTicks, .yTicks { stroke-width: 0.6; }
+      /* Draw data series with very thick lines. */
+      .series { stroke-width: 3; stroke: #afafaf; fill: none; }
+      /* Draw error bars with quite thick lines. */
+      .errorbar { stroke-width: 2; }
+      /* Draw black data points. */
+      .point { fill: black; stroke-width: 2; }
+      /* Colour data series, points and error bars on a per-group basis. */
+      .series.A, .errorbar.A, .point.A { stroke: #268bd2; }
+      .series.B, .errorbar.B, .point.B { stroke: #859900; }
+      /* Draw highlighted series with a thick red line. */
+      #highlight { stroke: #FF0000; stroke-width: 4; }
+      #highlight.point { fill: #FF0000; stroke: black; stroke-width: 2; }
+    </style>
+  </head>
+<body>
+  <!-- Page content. -->
+  <div id="content">
+    <h1>Example Plot</h1>
+
+    <!-- The plot will be created inside the following span element. -->
+    <span id="plot1" class="chart"></span>
+    <p class="caption">
+      <strong>Figure 1:</strong> Some time-series data.
+    </p>
+
+    <!-- The plot will be created inside the following span element. -->
+    <span id="plot2" class="chart"></span>
+    <p class="caption">
+      <strong>Figure 2:</strong> Mean time-series data.
+    </p>
+  </div>
+
+  <!-- Generate the plots. -->
+  <script type="text/javascript" src="./plot.js" charset="utf-8"></script>
+</body>
+</html>
