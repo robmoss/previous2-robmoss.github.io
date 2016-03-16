@@ -1,6 +1,6 @@
 ---
 layout: page
-navid: Tools
+navid: Models and Tools
 title: Plotting with D3
 ---
 
