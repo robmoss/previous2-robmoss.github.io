@@ -214,7 +214,8 @@ footer .license { float: right; }
 /* Layout of code blocks highlighted with `pygments`. */
 .highlight { border-radius: 0.5em; border-style: solid; border-width: 2px; }
 .highlight span.lineno, .highlighttable td.linenos { padding-right: 0.25em; }
-.highlight pre { margin: 0.25em 0.5em; white-space: pre-wrap; }
+.highlight pre { margin: 0.25em 0.5em; white-space: pre;
+    text-align: left; font-size: 90%; }
 .highlighttable td { padding: 0; }
 
 /*****************************************************************************
