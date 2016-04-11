@@ -47,7 +47,7 @@ navid: Portfolio
            Moss R, Zarebski A, Dawson P, McCaw JM
         </span><br/>
         <span class="journal">
-          <b>Influenza Other Respir Viruses</b>, accepted Jan 2016
+          <b>Influenza Other Respir Viruses</b>, Mar 2016
         </span><br/>
         <span class="abstract">
         <strong>Background:</strong>
