@@ -3,7 +3,8 @@ title: Infectious Diseases
 category: influenza
 ---
 
-Early detection and [forecasting]({{ site.baseurl }}/2015-flu-forecasts/) of
+Early detection and
+[forecasting](http://mathmodelling.sph.unimelb.edu.au/~rgm/flu-forecasts/) of
 infectious disease epidemics through the use of Bayesian estimation and
 mechanistic models of infection.
 Mathematical modelling of containment strategies for epidemic diseases within
