@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Research Statement
-navid: Portfolio
 date: 2014-01-30
 ---
 

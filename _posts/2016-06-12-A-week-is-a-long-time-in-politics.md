@@ -1,7 +1,5 @@
 ---
-layout: post
 title: A week is a long time in politics
-navid: Blog
 category: influenza
 tags: ['forecasting', 'influenza', 'visualisation']
 ---

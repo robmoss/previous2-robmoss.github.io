@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Tools for statistical analysis
-navid: Blog
 category: model
 tags: ['statistics']
 ---

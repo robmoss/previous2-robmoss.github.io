@@ -1,7 +1,5 @@
 ---
 title: Teaching
-navid: Teaching
-layout: page
 category: teaching
 ---
 

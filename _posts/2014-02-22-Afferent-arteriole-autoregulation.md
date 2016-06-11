@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Afferent arteriole autoregulation
-navid: Blog
 category: kidney
 tags: ['modelling', 'autoregulation']
 ---

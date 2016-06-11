@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Biological modelling and domain-specific languages
-navid: Blog
 category: model
 tags: ['language', 'modelling']
 ---

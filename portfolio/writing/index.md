@@ -1,7 +1,5 @@
 ---
 title: Writing Advice
-navid: Portfolio
-layout: page
 ---
 
 It isn’t easy to write a great CV/cover letter/research statement/teaching

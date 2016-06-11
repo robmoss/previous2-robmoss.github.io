@@ -1,7 +1,5 @@
 ---
 title: Models and Tools
-navid: Models and Tools
-layout: page
 category: model
 ---
 {% include blurb_model %}

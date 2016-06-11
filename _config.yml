@@ -38,7 +38,7 @@ timezone: "Australia/Melbourne"
 
 # Links that appear in the navigation bar.
 navlinks:
-  - Home:
+  - Blog:
       url: "/"
       img: "home.png"
   - Infectious Diseases:
@@ -57,20 +57,57 @@ navlinks:
       url: "/portfolio"
       img: "info.png"
 
+# Set default layouts and navigation IDs, based on:
 # http://stackoverflow.com/a/23555679
+# Note that the range of values for "type" have changed since Jekyll 2.2;
+# valid values are: "pages", "posts", "drafts", and any collection.
+# See https://jekyllrb.com/docs/configuration/ for details.
 defaults:
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: "post"  # limit to posts
-    values:
-      is_post: true # automatically set is_post=true for all posts
   -
     scope:
       path: ""      # empty string for all files
       type: "posts" # limit to posts
     values:
       is_post: true # automatically set is_post=true for all posts
+      layout: "post"
+      navid: "Blog"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      is_post: false
+      layout: "page"
+  -
+    scope:
+      path: "disease"
+    values:
+      navid: "Infectious Diseases"
+  -
+    scope:
+      path: "kidney"
+    values:
+      navid: "Renal Physiology"
+  -
+    scope:
+      path: "model"
+    values:
+      navid: "Models and Tools"
+  -
+    scope:
+      path: "portfolio"
+    values:
+      navid: "Portfolio"
+  -
+    scope:
+      path: "pubs"
+    values:
+      navid: "Portfolio"
+  -
+    scope:
+      path: "teaching"
+    values:
+      navid: "Teaching"
 
 # Whether to display previous post and next post links for each post.
 show_prev_next: true

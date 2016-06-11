@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Plotting with D3
-navid: Blog
 category: model
 tags: ['tutorial', 'visualisation']
 ---

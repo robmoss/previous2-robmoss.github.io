@@ -1,7 +1,5 @@
 ---
-layout: post
 title: '"Positive" results ...'
-navid: Blog
 tags: ['philosophy of science']
 ---
 

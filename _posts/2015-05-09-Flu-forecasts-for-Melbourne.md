@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Flu forecasts for Melbourne
-navid: Blog
 category: influenza
 tags: ['forecasting', 'influenza', 'visualisation']
 ---

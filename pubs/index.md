@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Publications
-navid: Portfolio
 ---
 <script language="javascript">
       function toggle_abs() {

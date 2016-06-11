@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Virtual model environment
-navid: Blog
 category: kidney
 tags: ['modelling', 'whole-kidney']
 ---

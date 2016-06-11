@@ -1,6 +1,4 @@
 ---
-layout: page
-navid: Models and Tools
 title: Model Documentation and Tools
 ---
 

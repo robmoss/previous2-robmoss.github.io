@@ -1,7 +1,5 @@
 ---
 title: Portfolio
-navid: Portfolio
-layout: page
 ---
 
 * Curriculum vitæ: [PDF](./cv_online.pdf)

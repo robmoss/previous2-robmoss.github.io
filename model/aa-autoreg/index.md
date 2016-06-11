@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Afferent arteriole autoregulation
-navid: Models and Tools
 js_libs: MathJax
 src_dir: "https://github.com/robmoss/model-aa-autoreg/blob/master/src"
 ---

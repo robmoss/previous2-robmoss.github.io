@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Teaching Statement
-navid: Portfolio
 date: 2014-01-30
 ---
 

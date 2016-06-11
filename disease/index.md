@@ -1,7 +1,5 @@
 ---
 title: Infectious Diseases
-navid: Infectious Diseases
-layout: page
 category: influenza
 ---
 

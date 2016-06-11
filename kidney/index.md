@@ -1,7 +1,5 @@
 ---
 title: Renal Physiology
-navid: Renal Physiology
-layout: page
 category: kidney
 ---
 

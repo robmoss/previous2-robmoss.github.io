@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Evolution and chronic kidney disease
-navid: Blog
 category: kidney
 tags: ['CKD', 'oxygen', 'vasculature']
 ---
