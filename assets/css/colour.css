@@ -5,7 +5,7 @@ em, span.journal { color: #859900; }
 a { color: #268bd2; }
 .tag a { color: #6c71c4; }
 .more a { color: #d33682; }
-.blurb, .separator, .prev, .next { background-color: #eee8d5;  }
+.blurb, .separator, .prev, .next { background-color: #eee8d5; }
 .blurb .separator { background-color: #fdf6e3; }
 nav.site a { border-color: #2aa198; }
 footer.site { border-color: #eee8d5; }
