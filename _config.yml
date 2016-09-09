@@ -13,8 +13,6 @@ exclude: ['README.md', 'LICENSE']
 # For example, set to "/project-name" (without a trailing slash).
 baseurl: ""
 
-# The default colour theme for every page and post.
-theme: "solarized-light"
 # Define a theme name and URL to have a link appear in the page footer.
 theme_name: "solarized"
 theme_url: "http://ethanschoonover.com/solarized"
