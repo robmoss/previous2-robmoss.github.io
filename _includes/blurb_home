@@ -33,5 +33,6 @@ and<br>
 <nav class="docs">
   <a href="{{ site.baseurl }}/portfolio/cv_online.pdf">Curriculum Vitæ</a>
   / <a href="{{ site.baseurl }}/pubs">Publications</a>
+  / <a href="http://orcid.org/0000-0002-4568-2012">ORCID</a>
 </nav>
 </header>
