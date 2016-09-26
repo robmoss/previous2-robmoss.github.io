@@ -38,6 +38,53 @@ title: Publications
 
 <ul class="pubs">
       <li class="epi"><a
+        href="http://dx.doi.org/10.1371/journal.pntd.0005018">Model-informed
+        risk assessment and decision making for an emerging infectious disease
+        in the Asia-Pacific region</a><br/>
+        <span class="author">
+          Moss R, Hickson RI, McVernon J, McCaw JM, Hort K, Black J,
+          Madden JR, Tran NH, McBryde ES, Geard N
+        </span><br/>
+        <span class="journal">
+          <b>PLoS Negl Trop Dis</b> 10(9): e0005018, Sep 2016.
+        </span><br/>
+        <span class="abstract">
+        <strong>Background:</strong> Effective response to emerging infectious
+        disease (EID) threats relies on health care systems that can detect
+        and contain localised outbreaks before they reach a national or
+        international scale.
+        The Asia-Pacific region contains low and middle income countries in
+        which the risk of EID outbreaks is elevated and whose health care
+        systems may require international support to effectively detect and
+        respond to such events.
+        The absence of comprehensive data on populations, health care systems
+        and disease characteristics in this region makes risk assessment and
+        decisions about the provision of such support challenging.
+        <br/><strong>Methodology/principal findings:</strong> We describe a
+        mathematical modelling framework that can inform this process by
+        integrating available data sources, systematically explore the effects
+        of uncertainty, and provide estimates of outbreak risk under a range
+        of intervention scenarios.
+        We illustrate the use of this framework in the context of a potential
+        importation of Ebola Virus Disease into the Asia-Pacific region.
+        Results suggest that, across a wide range of plausible scenarios,
+        preemptive interventions supporting the timely detection of early
+        cases provide substantially greater reductions in the probability of
+        large outbreaks than interventions that support health care system
+        capacity after an outbreak has commenced.
+        <br/><strong>Conclusions/significance</strong> Our study demonstrates
+        how, in the presence of substantial uncertainty about health care
+        system infrastructure and other relevant aspects of disease control,
+        mathematical models can be used to assess the constraints that limited
+        resources place upon the ability of local health care systems to
+        detect and respond to EID outbreaks in a timely and effective fashion.
+        Our framework can help evaluate the relative impact of these
+        constraints to identify resourcing priorities for health care system
+        support, in order to inform principled and quantifiable decision
+        making.
+        </span>
+      </li>
+      <li class="epi"><a
         href="http://dx.doi.org/10.1111/irv.12376">Forecasting influenza
         outbreak dynamics in Melbourne from Internet search query surveillance
         data</a><br/>
@@ -91,7 +138,7 @@ title: Publications
            James M. McCaw
         </span><br/>
         <span class="journal">
-          <b>PLOS Comp Biol</b> 11(8): e1004334, Aug 2015
+          <b>PLoS Comp Biol</b> 11(8): e1004334, Aug 2015
         </span><br/>
         <span class="abstract">
 Influenza is an infectious disease that primarily attacks the respiratory
@@ -233,7 +280,7 @@ response to influenza and its role in viral control.
           Moss R, Grosse T, Marchant I, Lassau N, Gueyffier F, Thomas SR
         </span><br/>
         <span class="journal">
-          <b>PLOS Comp Biol</b> 8(6): e1002571, Jun 2012.
+          <b>PLoS Comp Biol</b> 8(6): e1002571, Jun 2012.
         </span><br/>
         <span class="abstract">
   We present a methodology for systematically analysing the interactions
@@ -346,7 +393,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
           Robert Moss, James McCaw, Jodie McVernon
         </span><br/>
         <span class="journal">
-          <b>PLOS ONE</b> 6(2): e14505, Feb 2011.
+          <b>PLoS ONE</b> 6(2): e14505, Feb 2011.
         </span><br/>
         <span class="abstract">
   We address specific real-world issues that must be considered in order to
