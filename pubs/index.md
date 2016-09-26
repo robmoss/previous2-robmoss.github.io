@@ -132,10 +132,8 @@ title: Publications
         influenza virus infection and explain observed viral
         hierarchies</a><br/>
         <span class="author">
-           Pengxing Cao, Ada W. C. Yan, Jane M. Heffernan, Stephen Petrie,
-           Robert G. Moss, Louise A. Carolan, Teagan A. Guarnaccia,
-           Anne Kelso, Ian G. Barr, Jodie McVernon, Karen L. Laurie,
-           James M. McCaw
+           Cao P, Yan AWC, Heffernan JM, Petrie S, Moss R, Carolan LA,
+           Guarnaccia TA, Kelso A, Barr IG, McVernon J, Laurie KL, McCaw JM
         </span><br/>
         <span class="journal">
           <b>PLoS Comp Biol</b> 11(8): e1004334, Aug 2015
@@ -332,9 +330,8 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
           of detailed modules in a core model of body fluid homeostasis and
           blood pressure regulation</a><br/>
         <span class="author">
-          Alfredo I. Hernández, Virginie Le Rolle, David Ojeda, Pierre
-          Baconnier, Julie Fontecave-Jallon, François Guillaud, Thibault
-          Grosse, Robert G. Moss, Patrick Hannaert, S. Randall Thomas
+          Hernández AI, Le Rolle V, Ojeda D, Baconnier P, Fontecave-Jallon J,
+          Guillaud F, Grosse T, Moss R, Hannaert P, Thomas SR
         </span><br/>
         <span class="journal">
           <b>Prog Biophys Mol Biol</b>, 107(1):169&ndash;182, Oct 2011.
@@ -360,7 +357,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
           antiviral-delivery constrained intervention strategy on an influenza
           pandemic</a><br/>
         <span class="author">
-          James McCaw, Robert Moss, Jodie McVernon
+          McCaw JM, Moss R, McVernon J
         </span><br/>
         <span class="journal">
           <b>Influenza Other Respi Viruses</b> 5(Suppl. 1): 212&ndash;215, May
@@ -390,7 +387,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
           antiviral intervention strategies for mitigating an influenza
           pandemic</a><br/>
         <span class="author">
-          Robert Moss, James McCaw, Jodie McVernon
+          Moss R, McCaw JM, McVernon J
         </span><br/>
         <span class="journal">
           <b>PLoS ONE</b> 6(2): e14505, Feb 2011.
@@ -411,7 +408,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
         href="http://dx.doi.org/10.1016/j.physd.2009.08.015">Discrete network
           models of interacting nephrons</a><br/>
         <span class="author">
-          Robert Moss, Ed Kazmierczak, Michael Kirley, Peter Harris
+          Moss R, Kazmierczak E, Kirley M, Harris PJ
         </span><br/>
         <span class="journal">
           <b>Physica D</b>, 238(22): 2166&ndash;2176, Nov 2009.
@@ -431,7 +428,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
       <li class="renal"><a href="http://dx.doi.org/10.1098/rsta.2008.0313">A
           computational model for emergent dynamics in the kidney</a><br/>
         <span class="author">
-          Robert Moss, Ed Kazmierczak, Michael Kirley, Peter Harris
+          Moss R, Kazmierczak E, Kirley M, Harris PJ
         </span><br/>
         <span class="journal">
           <b>Phil. Trans. R. Soc. A</b>, 367(1896): 2125&ndash;2140, Jun 2009.
@@ -449,9 +446,8 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
       <li class="renal"><a href="http://dx.doi.org/10.1098/rsta.2008.0291">The
           Virtual Kidney: an e-Science interface and Grid Portal</a><br/>
         <span class="author">
-          Peter J. Harris, Rajkumar Buyya, Xingchen Chu, Tom Kobialka,
-          Ed Kazmierczak, Robert Moss, William Appelbe, Peter J. Hunter,
-          S. Randall Thomas
+          Harris PJ, Buyya R, Chu X, Kobialka T, Kazmierczak E, Moss R,
+          Appelbe W, Hunter PJ, Thomas SR
         </span><br/>
         <span class="journal">
           <b>Phil. Trans. R. Soc. A</b>, 367(1896): 2141&ndash;2159, Jun 2009.
@@ -469,7 +465,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
           Using hierarchical dynamical networks to model emergent dynamics in
           the kidney</a><br/>
         <span class="author">
-          Robert Moss
+          Moss R
         </span><br/>
         <span class="journal">
           <b>Ph.D. Thesis</b>, Sep 2008.
