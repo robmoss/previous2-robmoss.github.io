@@ -38,6 +38,42 @@ title: Publications
 
 <ul class="pubs">
       <li class="epi"><a
+        href="http://dx.doi.org/10.1017/S0950268816002053">Retrospective
+        forecasting of the 2010&ndash;2014 Melbourne influenza seasons using
+        multiple surveillance systems</a><br/>
+        <span class="author">
+          Moss R, Zarebski A, Dawson P, McCaw JM
+        </span><br/>
+        <span class="journal">
+          <b>Epidemiol Infect</b> Sep 2016.
+        </span><br/>
+        <span class="abstract">
+        Accurate forecasting of seasonal influenza epidemics is of great
+        concern to healthcare providers in temperate climates, since these
+        epidemics vary substantially in their size, timing and duration from
+        year to year, making it a challenge to deliver timely and
+        proportionate responses.
+        Previous studies have shown that Bayesian estimation techniques can
+        accurately predict when an influenza epidemic will peak many weeks in
+        advance, and we have previously tailored these methods for
+        metropolitan Melbourne (Australia) and Google Flu Trends data.
+        Here we extend these methods to clinical observation and
+        laboratory-confirmation data for Melbourne, on the grounds that these
+        data sources provide more accurate characterizations of influenza
+        activity.
+        We show that from each of these data sources we can accurately predict
+        the timing of the epidemic peak 4-6 weeks in advance.
+        We also show that making simultaneous use of multiple surveillance
+        systems to improve forecast skill remains a fundamental challenge.
+        Disparate systems provide complementary characterizations of disease
+        activity, which may or may not be comparable, and it is unclear how a
+        "ground truth" for evaluating forecasts against these multiple
+        characterizations might be defined.
+        These findings are a significant step towards making optimal use of
+        routine surveillance data for outbreak forecasting.
+        </span>
+      </li>
+      <li class="epi"><a
         href="http://dx.doi.org/10.1371/journal.pntd.0005018">Model-informed
         risk assessment and decision making for an emerging infectious disease
         in the Asia-Pacific region</a><br/>
