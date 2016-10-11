@@ -38,6 +38,46 @@ title: Publications
 
 <ul class="pubs">
       <li class="epi"><a
+        href="http://dx.doi.org/10.1186/s12879-016-1866-7">Reducing disease
+        burden in an influenza pandemic by targeted delivery of neuraminidase
+        inhibitors: mathematical models in the Australian context</a><br/>
+        <span class="author">
+          Moss R, McCaw JM, Cheng AC, Hurt AC, McVernon J
+        </span><br/>
+        <span class="journal">
+          <b>BMC Infect Dis</b> 16(1): 552, Oct 2016.
+        </span><br/>
+        <span class="abstract">
+        <strong>Background:</strong> Many nations maintain stockpiles of
+        neuraminidase inhibitor (NAI) antiviral agents for use in influenza
+        pandemics to reduce transmission and mitigate the course of clinical
+        infection. Pandemic preparedness plans include the use of these
+        stockpiles to deliver proportionate responses, informed by emerging
+        evidence of clinical impact. Recent uncertainty about the
+        effectiveness of NAIs has prompted these nations to reconsider the
+        role of NAIs in pandemic response, with implications for pandemic
+        planning and for NAI stockpile size.
+        <br/><strong>Methods:</strong> We combined a dynamic model of
+        influenza epidemiology with a model of the clinical care pathways in
+        the Australian health care system to identify effective NAI
+        strategies for reducing morbidity and mortality in pandemic events,
+        and the stockpile requirements for these strategies. The models were
+        informed by a 2015 assessment of NAI effectiveness against
+        susceptibility, pathogenicity, and transmission of influenza.
+        <br/><strong>Results:</strong> Liberal distribution of NAIs for early
+        treatment in outpatient settings yielded the greatest benefits in all
+        of the considered scenarios. Restriction of community-based treatment
+        to risk groups was effective in those groups, but failed to prevent
+        the large proportion of cases arising from lower risk individuals who
+        comprise the majority of the population.
+        <br/><strong>Conclusions:</strong> These targeted strategies are only
+        effective if they can be deployed within the constraints of existing
+        health care infrastructure. This finding highlights the critical
+        importance of identifying optimal models of care delivery for
+        effective emergency health care response.
+        </span>
+      </li>
+      <li class="epi"><a
         href="http://dx.doi.org/10.1017/S0950268816002053">Retrospective
         forecasting of the 2010&ndash;2014 Melbourne influenza seasons using
         multiple surveillance systems</a><br/>
