@@ -2,6 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+{% capture repl_href %}<a href="{{ site.url }}/{% endcapture %}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
@@ -12,7 +13,15 @@ layout: null
     {% for post in site.posts limit:site.feed_posts %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.excerpt | xml_escape }}</description
+        {% if post.excerpt %}
+        <description>{{ post.excerpt
+          | replace: '<a href="/', repl_href
+          | xml_escape }}</description>
+        {% else %}
+        <description>{{ post.content
+          | replace: '<a href="/', repl_href
+          | xml_escape }}</description>
+        {% endif %}
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
