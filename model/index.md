@@ -21,3 +21,10 @@ in these [interactive plots](./rfc/).
 [This model](./aa-autoreg) extends an existing autoregulatory model with the
 addition of an explicit glomerular capillary bed, in order to predict the
 glomerular filtration rate (GFR).
+
+## Interactive SEIR infectious disease model
+
+This
+[interactive model](http://mathmodelling.sph.unimelb.edu.au/~rgm/seir-demo/)
+illustrates how epidemiological parameters, such as the basic reproduction
+number, affect the size and duration of an epidemic.
