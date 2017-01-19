@@ -38,6 +38,46 @@ title: Publications
 
 <ul class="pubs">
       <li class="epi"><a
+        href="http://dx.doi.org/10.1016/j.idm.2016.12.004">Model selection for
+        seasonal influenza forecasting</a><br/>
+        <span class="author">
+          Zarebski AE, Dawson P, McCaw JM, Moss R
+        </span><br/>
+        <span class="journal">
+          <b>Infect Dis Mod</b>, accepted Dec 2016
+        </span><br/>
+        <span class="abstract">
+        Epidemics of seasonal influenza inflict a huge burden in temperate
+        climes such as Melbourne (Australia) where there is also significant
+        variability in their timing and magnitude. Particle filters combined
+        with mechanistic transmission models for the spread of influenza have
+        emerged as a popular method for forecasting the progression of these
+        epidemics. Despite extensive research it is still unclear what the
+        optimal models are for forecasting influenza, and how one even
+        measures forecast performance.<br/>
+        In this paper, we present a likelihood-based method, akin to Bayes
+        factors, for model selection when the aim is to select for predictive
+        skill. Here, "predictive skill" is measured by the probability of the
+        data after the forecasting date, conditional on the data from before
+        the forecasting date. Using this method we choose an optimal model of
+        influenza transmission to forecast the number of laboratory-confirmed
+        cases of influenza in Melbourne in each of the 2010-15 epidemics. The
+        basic transmission model considered has the
+        susceptible-exposed-infectious-recovered structure with extensions
+        allowing for the effects of absolute humidity and inhomogeneous mixing
+        in the population. While neither of the extensions provides a
+        significant improvement in fit to the data they do differ in terms of
+        their predictive skill. Both measurements of absolute humidity and a
+        sinusoidal approximation of those measurements are observed to
+        increase the predictive skill of the forecasts, while allowing for
+        inhomogeneous mixing reduces the skill.<br/>
+        We discuss how our work could be integrated into a forecasting system
+        and how the model selection method could be used to evaluate forecasts
+        when comparing to multiple surveillance systems providing disparate
+        views of influenza activity.
+        </span>
+      </li>
+      <li class="epi"><a
         href="http://dx.doi.org/10.1186/s12879-016-1866-7">Reducing disease
         burden in an influenza pandemic by targeted delivery of neuraminidase
         inhibitors: mathematical models in the Australian context</a><br/>
