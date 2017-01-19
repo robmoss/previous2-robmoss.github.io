@@ -33,6 +33,9 @@ and<br>
 <nav class="docs">
   <a href="{{ site.baseurl }}/portfolio/cv_online.pdf">Curriculum Vitæ</a>
   / <a href="{{ site.baseurl }}/pubs">Publications</a>
-  / <a href="http://orcid.org/0000-0002-4568-2012">ORCID</a>
+  <br>
+  <a href="http://orcid.org/0000-0002-4568-2012" title="ORCID record">ORCID</a>
+  / <a href="https://scholar.google.com/citations?user=NOX2J-EAAAAJ&hl=en" title="Google Scholar profile">Google</a>
+  / <a href="https://www.scopus.com/authid/detail.uri?authorId=28167595000" title="Scopus author details">Scopus</a>
 </nav>
 </header>
