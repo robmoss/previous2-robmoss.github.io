@@ -24,6 +24,10 @@ title: Publications
         for (var i = 0; i < to_show.length; i++) {
           to_show[i].style["display"] = "block";
         }
+        to_hide = document.getElementsByClassName("abstract");
+        for (var i = 0; i < to_hide.length; i++) {
+          to_hide[i].style["display"] = "none";
+        }
       }
 </script>
 <p class="showjs">
@@ -36,7 +40,7 @@ title: Publications
   <strong>Please enable javascript to view publication abstracts.</strong>
 </p>
 
-<ul class="pubs">
+<ul class="publication-list">
       <li class="epi"><a
         href="http://dx.doi.org/10.1016/j.idm.2016.12.004">Model selection for
         seasonal influenza forecasting</a><br/>

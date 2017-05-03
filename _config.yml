@@ -13,9 +13,14 @@ exclude: ['README.md', 'LICENSE']
 # For example, set to "/project-name" (without a trailing slash).
 baseurl: ""
 
+# The default colour theme for every page and post.
+css_theme: "solarized-light"
 # Define a theme name and URL to have a link appear in the page footer.
-theme_name: "solarized"
-theme_url: "http://ethanschoonover.com/solarized"
+css_theme_name: "solarized"
+css_theme_url: "http://ethanschoonover.com/solarized"
+# Generate compact CSS files.
+sass:
+    style: compressed
 
 # The URLs for site-wide files such as stylesheets.
 url_css: "/assets/css"
@@ -26,10 +31,7 @@ url_js: "/assets/js"
 url_mathjax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js"
 
 # Set to "/some/path" if the blog is hosted in a sub-directory of this site.
-url_blog: ""
-# Set to true if blog posts are listed (i.e., recent posts, posts by date,
-# and posts by tag) on a per-category basis.
-listed_by_cat: false
+url_blog: "/archive"
 
 # The URL for each blog post, as per http://jekyllrb.com/docs/permalinks/.
 permalink: /:year/:month/:day/:title
@@ -71,14 +73,13 @@ defaults:
     values:
       is_post: true # automatically set is_post=true for all posts
       layout: "post"
-      navid: "Blog"
   -
     scope:
       path: ""
       type: "pages"
     values:
       is_post: false
-      layout: "page"
+      layout: "site"
   -
     scope:
       path: "disease"

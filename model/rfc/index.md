@@ -15,6 +15,7 @@ js_libs: D3
       }
 </script>
 
+<div class="plots main-content">
   <p>The following figures plot model simulation results against
     acute renal function curves obtained from experimental studies
     in the rat.
@@ -22,6 +23,7 @@ js_libs: D3
     has been
     <a href="http://dx.doi.org/10.1152/ajprenal.00089.2013">published</a> by
     <em>AJP Renal</em>.
+  </p>
 
   <p>The model source code is available
   <a href="http://hub.darcs.net/rgm/kidney_2013-10-09">here</a>.
@@ -29,6 +31,7 @@ js_libs: D3
   presented in the
   <a href="http://dx.doi.org/10.1152/ajprenal.00089.2013">accompanying
   manuscript</a>, as well as scripts that reproduce the manuscript figures.
+  </p>
 
   <p class="showjs"><strong>Instructions:</strong>
     Table 1 contains links to
@@ -50,6 +53,7 @@ js_libs: D3
   <p class="caption">
     <strong>Figure 2:</strong> Regulation of water excretion.
   </p>
+</div>
 
 <!-- Generate the plots. -->
 <script type="text/javascript" src="./plot.js" charset="utf-8"></script>

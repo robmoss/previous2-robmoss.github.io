@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: site
 ---
+<h1>Posts by tag</h1>
+
 {% unless page.category %}
   {% assign posts = site.posts %}
 {% else %}
@@ -21,7 +23,7 @@ layout: page
 {{ content }}
 {% endif %}
 
-<nav class="post-list">
+<nav class="posts">
 <ul>
 {% assign prevtag = "" %}
 {% for t in sortedtags %}
@@ -32,7 +34,7 @@ layout: page
   {% unless tag == tagname %}
     {% assign tagname = tag | capitalize %}
   {% endunless %}
-  <h2 id="{{ tag }}" class="title">{{ tagname }}</h2>
+  <h2 id="{{ tag }}">{{ tagname }}</h2>
   {% for post in posts %}
     {% if post.tags contains tag %}
     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>

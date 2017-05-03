@@ -1,5 +1,3 @@
-<header class="blurb">
-
 <address>
   <span class="position">
     Research Fellow <br>
@@ -22,10 +20,10 @@
 <p>
 Mathematical modelling of biological and physiological systems:<br>
 &#8226; Infectious disease epidemics to inform health-care policy
-(<span class="more"><a href="{{ site.baseurl }}/disease">details</a></span>);
+(<a class="more" href="{{ site.baseurl }}/disease">details</a>);
 and<br>
 &#8226; Neurohormonal regulation of renal water and sodium excretion
-(<span class="more"><a href="{{ site.baseurl }}/kidney">details</a></span>).
+(<a class="more" href="{{ site.baseurl }}/kidney">details</a>).
 </p>
 
 <hr class="separator">
@@ -38,4 +36,3 @@ and<br>
   / <a href="https://scholar.google.com/citations?user=NOX2J-EAAAAJ&hl=en" title="Google Scholar profile">Google</a>
   / <a href="https://www.scopus.com/authid/detail.uri?authorId=28167595000" title="Scopus author details">Scopus</a>
 </nav>
-</header>

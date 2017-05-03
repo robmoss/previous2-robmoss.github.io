@@ -344,7 +344,7 @@ Plot.create = function(data_file, hull_file, dims, labels, selector) {
 
 Plot.study_table = function(study_file, selector) {
     var table_div = d3.select(selector).append("div")
-        .attr("id", "table");
+        .attr("id", "plot-legend");
     var label = table_div.append("span");
     var table = table_div.append("table")
         .attr("id", "refs");
@@ -480,9 +480,7 @@ var md = { w: 560, h: 420, margin_x: 75, margin_y: 50 },
         y: "Volume Excretion (µL/min/gkwt)"
     };
 
-// var width = document.getElementById('content').offsetWidth * 2/3;
-// width = width * 0.8;
-var width = document.body.offsetWidth;
+var width = document.getElementsByClassName('plots')[0].offsetWidth;
 var height = 0.75 * width;
 var sm = { w: width - 75, h: height - 50,
            margin_x: 75, margin_y: 50 };
