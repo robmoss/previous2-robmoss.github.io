@@ -48,7 +48,7 @@ title: Publications
           Zarebski AE, Dawson P, McCaw JM, Moss R
         </span><br/>
         <span class="journal">
-          <b>Infect Dis Mod</b>, accepted Dec 2016
+          <b>Infect Dis Mod</b> 2(1): 56&ndash;70, Feb 2017
         </span><br/>
         <span class="abstract">
         Epidemics of seasonal influenza inflict a huge burden in temperate
