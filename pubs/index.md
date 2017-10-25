@@ -41,6 +41,39 @@ title: Publications
 </p>
 
 <ul class="publication-list">
+      <li class="epi">Epidemic forecasts as a tool for public health:
+        interpretation and (re)calibration<br/>
+        <span class="author">Moss R, Fielding JE, Stephens N, McVernon J,
+        Dawson P, McCaw JM</span><br/>
+        <span class="journal"><b>Australian and New Zealand Journal of Public
+        Health</b>, accepted 2 Oct 2017</span><br/>
+        <span class="abstract">
+        <strong>Objective and Methods:</strong> Recent studies have used
+        Bayesian methods to predict timing of influenza epidemics many weeks
+        in advance, but there is no documented evaluation of how such
+        forecasts might support the day-to-day operations of public health
+        staff. During the 2015 influenza season in Melbourne, Australia,
+        weekly forecasts were presented at Health Department surveillance unit
+        meetings and evaluated and updated in light of expert opinion, to
+        improve their accuracy and usefulness.
+        <br/><strong>Results:</strong> Predictive capacity of the model was
+        substantially limited by delays in reporting and processing arising
+        from an unprecedented number of notifications, disproportionate to
+        seasonal intensity. Adjustment of the predictive algorithm to account
+        for these delays and increased reporting propensity improved both
+        current situational awareness and forecasting accuracy.
+        <br/><strong>Conclusions:</strong> Collaborative engagement with
+        public health practitioners in model development improved
+        understanding of the context and limitations of emerging surveillance
+        data. Incorporation of these insights in a quantitative model resulted
+        in more robust estimates of disease activity for public health use.
+        <br/><strong>Implications for Public Health:</strong> In addition to
+        predicting future disease trends, forecasting methods can quantify the
+        impact of delays in data availability and variable reporting practice
+        on the accuracy of current epidemic assessment. Such evidence supports
+        investment in systems capacity.
+        </span>
+      </li>
       <li class="epi"><a
         href="http://dx.doi.org/10.1016/j.idm.2016.12.004">Model selection for
         seasonal influenza forecasting</a><br/>
