@@ -38,7 +38,7 @@ body {
    These are the only elements that can contain floated <aside> elements. */
 section, article, div { max-width: inherit; }
 /* Make all other content blocks span only the centre (main) column. */
-p, pre, img, table, dl, ul, ol, header, footer, h1, h2, h3,
+p, pre, img, table, dl, ul, ol, header, footer, h1, h2, h3, figure,
 .main-content {
     max-width: 40rem; margin-left: auto; margin-right: auto; }
 
@@ -207,6 +207,8 @@ nav.posts h2:target { color: $fg-magenta; }
     float: right;
     margin: 0 0 0.5em 0.5em;
 }
+.post figure { text-align: center; }
+.post figure figcaption { text-align: center; margin-top: 0; }
 .post .comments h3 { text-align: left; }
 .post .comment { max-width: 80%; margin-left: auto; margin-right: auto;
                  font-size: 90%; line-height: 1.25em; }
