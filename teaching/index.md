@@ -3,12 +3,6 @@ title: Teaching
 category: teaching
 ---
 
-## 2018, Semester 1
-
-### Declarative Programming (COMP90048)
-
-I will be co-teaching this subject for the first time.
-
 ## 2017, Semester 2
 
 ### Infectious Diseases Modelling (POPH90271)
