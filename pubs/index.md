@@ -44,8 +44,8 @@ title: Publications
       <li class="epi"><a
         href="http://dx.doi.org/10.1111/1753-6405.12750">Epidemic forecasts as
         a tool for public health: interpretation and (re)calibration</a><br/>
-        <span class="author">Moss R, Fielding JE, Stephens N, McVernon J,
-        Dawson P, McCaw JM</span><br/>
+        <span class="author">Moss R, Fielding JE, Franklin LJ, Stephens N,
+        McVernon J, Dawson P, McCaw JM</span><br/>
         <span class="journal"><b>Australian and New Zealand Journal of Public
         Health</b>, online 27 Dec 2017</span><br/>
         <span class="abstract">
