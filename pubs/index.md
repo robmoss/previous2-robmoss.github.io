@@ -47,7 +47,7 @@ title: Publications
         <span class="author">Moss R, Fielding JE, Franklin LJ, Stephens N,
         McVernon J, Dawson P, McCaw JM</span><br/>
         <span class="journal"><b>Australian and New Zealand Journal of Public
-        Health</b>, online 27 Dec 2017</span><br/>
+        Health</b> 42(1): 69&ndash;76, Feb 2018</span><br/>
         <span class="abstract">
         <strong>Objective and Methods:</strong> Recent studies have used
         Bayesian methods to predict timing of influenza epidemics many weeks
