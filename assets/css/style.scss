@@ -55,6 +55,11 @@ h1 { font-size: 150%; }
 h2 { font-size: 130%; }
 h3 { font-size: 110%; }
 
+/* Increase vertical space above article sub-headings */
+article * + h1 { margin-top: 1.5em; }
+article * + h2 { margin-top: 1.5em; }
+article * + h3 { margin-top: 1.5em; }
+
 p { text-align: justify; }
 em { color: $fg-green; }
 a { color: $fg-blue; }
