@@ -202,7 +202,7 @@ So the following situations need to be covered when dealing with Org mode source
 
 In either case, the relevant source code blocks should be tangled, and the resulting code loaded from the tangled file.
 
-It might also be useful to tangle *only* the current code block, even if there are other code blocks that should be tangled into the same file, so that the contents of that code block can be interrogated in isolation. A simple way to [overload a command's behaviour](https://www.emacswiki.org/emacs/PrefixArgument) is to make use of the universal prefix argument (i.e., the approach used by `org-babel-tangle` and many, many other Emacs commands), allowing the user to select either behaviour; see lines 60&#x2013;63.
+It might also be useful to tangle *only* the current code block, even if there are other code blocks that should be tangled into the same file, so that the contents of that code block can be interrogated in isolation. A simple way to [overload a command's behaviour](https://www.emacswiki.org/emacs/PrefixArgument) is to make use of the universal prefix argument (i.e., the approach used by `org-babel-tangle` and many, many other Emacs commands), allowing the user to select either behaviour; see lines 62&#x2013;65.
 
 ```emacs-lisp
 (defun send-to-haskell/file-with-buffer (file-name buffer)
