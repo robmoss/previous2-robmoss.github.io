@@ -3,6 +3,14 @@ title: Teaching
 category: teaching
 ---
 
+## 2018, Semester 1
+
+### Declarative Programming (COMP90048)
+
+In a return to my academic roots, I will be co-lecturing this subject with
+Prof Peter Stuckey, who was my lecturer for *Computing Fundamentals A*
+(433-141) all the way back in 2000.
+
 ## 2017, Semester 2
 
 ### Infectious Diseases Modelling (POPH90271)
