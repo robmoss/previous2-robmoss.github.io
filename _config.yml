@@ -128,6 +128,28 @@ safe: true
 # Use kramdown because it correctly interprets LaTeX mathematics notation.
 markdown: kramdown
 
+# https://help.github.com/articles/using-syntax-highlighting-on-github-pages/
+# https://help.github.com/articles/creating-and-highlighting-code-blocks/
+# https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+# http://blog.virtuacreative.com.br/upgrade-jekyll-2-to-3-gh-pages.html
+highlighter: rouge
+
+kramdown:
+  # https://github.com/jekyll/jekyll/issues/4619
+  # https://kramdown.gettalong.org/options.html#option-syntax-highlighter-opts
+  # https://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+  # Only use smart quotes for double quotes, not single quotes (i.e., leave
+  # apostrophes as-is).
+  # https://stackoverflow.com/a/25597026
+  smart_quotes:  ["apos", "apos", "ldquo", "rdquo"]
+
 # The default license under which a post is published.
 default_license: CC BY-SA
 

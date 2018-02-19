@@ -43,7 +43,7 @@ The plotting script is loaded at the end of the file in order to ensure that
 the browser will have finished loading the page content and the D3.js library
 before calling the script.
 
-{% highlight html linenos=table %}
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -74,7 +74,7 @@ before calling the script.
   <script type="text/javascript" src="./plot.js" charset="utf-8"></script>
 </body>
 </html>
-{% endhighlight %}
+```
 
 ## Drawing a simple plot
 
@@ -84,7 +84,7 @@ because D3.js is a general-purpose visualisation library, and is not
 specifically designed for producing plots.
 But don't worry, each block is relatively simple and performs a single task.
 
-{% highlight js linenos=table %}
+```javascript
 // Create a new namespace to contain all of the variables and functions.
 var Plot = Plot || {};
 
@@ -431,13 +431,13 @@ var prepare_data = function(data_rows) {
 
 // Draw the plot(s).
 Plot.draw_many("data.csv", prepare_data, [plot1]);
-{% endhighlight %}
+```
 
 ## Controlling the appearance of the plot
 
 We now need to add some rules that define how the lines and paths will appear.
 
-{% highlight css linenos=table %}
+```css
 /* Draw all lines in black, by default. */
 line { stroke: black; }
 /* Draw very thin grid lines. */
@@ -455,7 +455,7 @@ line { stroke: black; }
 /* Colour data series, points and error bars on a per-group basis. */
 .series.A, .errorbar.A, .point.A { stroke: #268bd2; }
 .series.B, .errorbar.B, .point.B { stroke: #859900; }
-{% endhighlight %}
+```
 
 ## Highlighting a data series
 
@@ -464,15 +464,15 @@ moves the mouse over that data series.
 First, we define how a highlighted data series should appear, assuming that it
 will be identified by having the identifier `highlight`.
 
-{% highlight css linenos=table %}
+```css
 /* Draw highlighted series with a thick red line. */
 #highlight { stroke: #FF0000; stroke-width: 4; }
 #highlight.point { fill: #FF0000; stroke: black; stroke-width: 2; }
-{% endhighlight %}
+```
 
 We then need to define how to add and remove this highlighting.
 
-{% highlight js linenos=table %}
+```javascript
     // Define how to highlight a particular data series.
     plot.highlight_group = function(group_class) {
         return function(d) {
@@ -489,14 +489,14 @@ We then need to define how to add and remove this highlighting.
             }
         };
     };
-{% endhighlight %}
+```
 
 And we need to trigger this highlighting when the mouse moves over a data
 series.
 Note that we only add this event handler in the case where there are multiple
 date series.
 
-{% highlight js linenos=table %}
+```javascript
         // Plot each group separately.
         for (var i = 0; i < data_series.length; i++) {
             plot.contents.append("svg:path")
@@ -505,26 +505,26 @@ date series.
                 .attr("d", plot.draw_line)
                 .on("mouseover", plot.highlight_group(data_series[i].key));
         }
-{% endhighlight %}
+```
 
 ## Adding a second plot
 
 Let's now plot the mean values of the two data sets.
 First, we need to create an element to contain this second plot.
 
-{% highlight html linenos=table %}
+```html
     <!-- The plot will be created inside the following span element. -->
     <span id="plot2" class="chart"></span>
     <p class="caption">
       <strong>Figure 2:</strong> Mean time-series data.
     </p>
-{% endhighlight %}
+```
 
 Then we need to define the properties of this second plot.
 Note that we don't define *ymin* and *ymax*, because we're not going to plot
 any error bars.
 
-{% highlight js linenos=table %}
+```javascript
 // Define the properties of the plot we want to produce.
 var plot2 = {
     // The plot dimensions and margins.
@@ -556,14 +556,14 @@ var plot2 = {
     y: Plot.num_axis("Mean value (units)", 1,
                      function(d) { return d.mean_val; }),
 }
-{% endhighlight %}
+```
 
 And finally, we add this to the list of plots to draw.
 
-{% highlight js linenos=table %}
+```javascript
 // Draw the plot(s).
 Plot.draw_many("data.csv", prepare_data, [plot1, plot2]);
-{% endhighlight %}
+```
 
 ## Download the materials
 

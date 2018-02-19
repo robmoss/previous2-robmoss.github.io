@@ -21,3 +21,9 @@ A rather simple and plain jekyll-generated site.
     the [Zocial](https://github.com/smcllns/css-social-buttons) icon theme by
     Sam Collins and are distributed under the terms of the
     [MIT License](http://opensource.org/licenses/mit-license.php).
+
+## Notes
+
+* Use fenced code blocks for examples *with* line numbering, and use Liquid
+  tags (`{% highlight LANG%} ... {% endhighlight %}`) for examples *without*
+  line numbering.
