@@ -41,6 +41,10 @@ section, article, div { max-width: inherit; }
 p, pre, img, table, dl, ul, ol, header, footer, h1, h2, h3, figure,
 .main-content {
     max-width: 40rem; margin-left: auto; margin-right: auto; }
+blockquote {
+    max-width: 35rem; margin-left: auto; margin-right: auto;
+    font-style: italic;
+}
 
 h1, h2, h3 {
     font-family: "Raleway", "DejaVu Sans", "Droid Sans", "Calibri", "Verdana",
