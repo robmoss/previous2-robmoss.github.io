@@ -92,7 +92,7 @@ This occurs because the temporary buffer created by `with-temp-buffer` will ceas
 
 # Refining the solution
 
-Calling `haskell-process-load-buffer` from within transient code buffers now works as expected. But it's tedious having to use a different command when working in a transient buffer &#x2014; it would be ideal to replace all of the key bindings for `haskell-process-load-file` to call this function instead. A much simpler (and less error-prone than searching through all of the different keymaps to identify the appropriate key bindings) approach is to use Emacs' *advice system*, which allows you to [modify](https://www.gnu.org/software/emacs/manual/html_node/elisp/Advising-Functions.html) an existing function.
+Calling `haskell-process-load-buffer` from within transient code buffers now works as expected. But it's tedious having to use a different command when working in a transient buffer &#x2014; it would be ideal to replace all of the key bindings for `haskell-process-load-file` to call this function instead. A much simpler approach (and less error-prone than searching through all of the different keymaps to identify the appropriate key bindings) is to use Emacs' *advice system*, which allows you to [modify](https://www.gnu.org/software/emacs/manual/html_node/elisp/Advising-Functions.html) an existing function.
 
 ```emacs-lisp
 (defun haskell-process-load-buffer (orig-fun &rest args)
