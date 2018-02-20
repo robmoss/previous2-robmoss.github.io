@@ -44,6 +44,12 @@ figure.highlight {
     border-radius: 1.5rem;
     text-align: left;
 }
+/*
+ * Prevent code blocks from being wider than their container.
+ */
+.highlighter-rouge .highlight, figure.highlight {
+    overflow: auto;
+}
 .highlight code, .highlight table { display: block; }
 .highlight pre.lineno { margin-right: 1em; }
 .highlight { background-color: #eee8d5; /* #fdf6e3; */ color: #586e75 }
