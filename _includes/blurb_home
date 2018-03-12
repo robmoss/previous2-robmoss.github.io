@@ -28,6 +28,8 @@ and<br>
 
 <hr class="separator">
 
+<img class="profile" src="{{ site.baseurl }}{{ site.url_img }}/profile-pic.jpg">
+
 <nav class="docs">
   <a href="{{ site.baseurl }}/portfolio/cv_online.pdf">Curriculum Vitæ</a>
   / <a href="{{ site.baseurl }}/pubs">Publications</a>

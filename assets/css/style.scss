@@ -150,6 +150,13 @@ footer.site {
 .blurb address .location {
     text-align: right; float: right; margin-right: 0.1em; }
 
+.blurb img.profile {
+    display: block;
+    max-width: 16em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
 /*****************************************************************************
   Asides
 *****************************************************************************/
