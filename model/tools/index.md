@@ -15,7 +15,8 @@ a model comprehensible, hence the proliferation of
 [guidelines](http://biomodels.net/miase/) to describe models and *in silico*
 experiments.
 
-The importance of clear, concise and helpful documentation is also
+The importance of clear, concise and
+[]helpful documentation](https://www.divio.com/blog/documentation/) is also
 [paramount](http://jacobian.org/writing/great-documentation/) to ensuring a
 published model and the accompanying simulations are sufficiently
 well-described that the published results can be replicated independently of
