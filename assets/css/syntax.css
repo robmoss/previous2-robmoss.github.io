@@ -33,6 +33,10 @@ p code, p tt { font-size: 1.25em; background: #eee8d5;
     padding: 0 0.5rem;
     border-radius: 1.5rem;
 }
+.highlighter-rouge .highlight .rouge-table pre {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
 /*
  * Code blocks enclosed in {% highlight %} tags.
  */

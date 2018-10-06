@@ -40,6 +40,8 @@ non-trivial mathematical models.
 
 ## Tutorials
 
+- How to [create a MATLAB VM](./HOWTO/Create-a-MATLAB-VM) on Nectar; last
+  updated *2018-10-06*.
 - How to produce [interactive plots](./plotting-with-d3) using D3; last
   updated *2014-06-08*.
 
