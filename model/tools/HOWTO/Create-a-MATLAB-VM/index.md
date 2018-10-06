@@ -1,5 +1,5 @@
 ---
-title: 'HOWTO: Create a MATLAB Virtual Machine'
+title: 'HOW-TO: Create a MATLAB Virtual Machine'
 is_post: true
 ---
 
