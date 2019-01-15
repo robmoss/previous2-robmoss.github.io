@@ -42,6 +42,42 @@ title: Publications
 
 <ul class="publication-list">
       <li class="epi"><a
+        href="https://doi.org/10.3390/tropicalmed4010012">Accounting for
+        healthcare-seeking behaviours and testing practices in real-time
+        influenza forecasts</a><br/>
+        <span class="author">Moss R, Zarebski AE, Carlson SJ,
+        McCaw JM</span><br/>
+        <span class="journal"><b>Tropical Medicine and Infectious Disease</b>
+        4(1): 12, Jan 2019</span><br/>
+        <span class="abstract">
+        For diseases such as influenza, where the majority of infected persons
+        experience mild (if any) symptoms, surveillance systems are sensitive
+        to changes in healthcare-seeking and clinical decision-making
+        behaviours. This presents a challenge when trying to interpret
+        surveillance data in near-real-time (e.g., to provide public health
+        decision-support). Australia experienced a particularly large and
+        severe influenza season in 2017, perhaps in part due to: (a) mild
+        cases being more likely to seek healthcare; and (b) clinicians being
+        more likely to collect specimens for reverse transcription polymerase
+        chain reaction (RT-PCR) influenza tests. In this study, we used weekly
+        Flutracking surveillance data to estimate the probability that a
+        person with influenza-like illness (ILI) would seek healthcare and
+        have a specimen collected. We then used this estimated probability to
+        calibrate near-real-time seasonal influenza forecasts at each week of
+        the 2017 season, to see whether predictive skill could be improved.
+        While the number of self-reported influenza tests in the weekly
+        surveys are typically very low, we were able to detect a substantial
+        change in healthcare seeking behaviour and clinician testing behaviour
+        prior to the high epidemic peak. Adjusting for these changes in
+        behaviour in the forecasting framework improved predictive skill. Our
+        analysis demonstrates a unique value of community-level surveillance
+        systems, such as Flutracking, when interpreting traditional
+        surveillance data. These methods are also applicable beyond the
+        Australian context, as similar community-level surveillance systems
+        operate in other countries.
+        </span>
+      </li>
+      <li class="epi"><a
         href="http://dx.doi.org/10.1111/1753-6405.12750">Epidemic forecasts as
         a tool for public health: interpretation and (re)calibration</a><br/>
         <span class="author">Moss R, Fielding JE, Franklin LJ, Stephens N,
