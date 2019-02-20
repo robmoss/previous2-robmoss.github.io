@@ -1,6 +1,7 @@
 ---
 title: Models and Tools
 category: model
+js_libs: MathJax
 ---
 {% include blurb_model %}
 
@@ -28,3 +29,13 @@ This
 [interactive model](http://mathmodelling.sph.unimelb.edu.au/~rgm/seir-demo/)
 illustrates how epidemiological parameters, such as the basic reproduction
 number, affect the size and duration of an epidemic.
+
+## Interactive SIR infectious disease model
+
+This
+[interactive model](http://mathmodelling.sph.unimelb.edu.au/~rgm/sir-demo/)
+illustrates how outbreaks in small populations are driven by stochastic
+events.
+It is designed for use in a talk or presentation, where the model population
+size can be set to the number of people in the audience $$N$$, each of whom
+should be given a unique number from $$\{1 \dots N\}$$.
