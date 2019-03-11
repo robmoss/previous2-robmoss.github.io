@@ -22,11 +22,11 @@ published model and the accompanying simulations are sufficiently
 well-described that the published results can be replicated independently of
 the original model implementation.
 It can be hard to write [good
-prose](http://www.americanscientist.org/issues/id.877,y.0,no.,content.true,page.1,css.print/issue.aspx)
+prose](http://web.archive.org/web/20170614175347/http://www.americanscientist.org/issues/id.877,y.0,no.,content.true,page.1,css.print/issue.aspx)
 and to *teach* the user rather than simply
 [telling them](http://stevelosh.com/blog/2013/09/teach-dont-tell/) what to do.
 That's why it's important a have good editor; only edit the documentation
-[yourself](http://lifehacker.com/5968996/how-to-edit-your-own-writing/all) as
+[yourself](http://web.archive.org/web/20140616001452/http://lifehacker.com/5968996/how-to-edit-your-own-writing/all) as
 a last resort.
 Good documentation means that your model/software is
 [learnable](http://brikis98.blogspot.com.tr/2014/05/you-are-what-you-document.html).
