@@ -42,6 +42,40 @@ title: Publications
 
 <ul class="publication-list">
       <li class="epi"><a
+        href="https://doi.org/10.33321/cdi.2019.43.7">Anatomy of a seasonal
+        influenza epidemic forecast</a><br/>
+        <span class="author">Moss R, Zarebski AE, Dawson P, Franklin LJ,
+        Birrell FA, McCaw JM</span><br/>
+        <span class="journal"><b>Communicable Diseases Intelligence</b>
+        43: 1&ndash;14, Mar 2019</span><br/>
+        <span class="abstract">
+        Bayesian methods have been used to predict the timing of infectious
+        disease epidemics in various set-tings and for many infectious
+        diseases, including seasonal influenza. But integrating these
+        techniques into public health practice remains an ongoing challenge,
+        and requires close collaboration between modellers, epidemiologists,
+        and public health staff.
+        <br/><br/>
+        During the 2016 and 2017 Australian influenza seasons, weekly seasonal
+        influenza forecasts were produced for cities in the three states with
+        the largest populations: Victoria, New South Wales and Queensland.
+        Forecast results were presented to Health Department disease
+        surveillance units in these jurisdictions, who provided feedback about
+        the plausibility and public health utility of these predictions.
+        <br/><br/>
+        In earlier studies we found that delays in reporting and processing of
+        surveillance data substantially limited forecast performance, and that
+        incorporating climatic effects on transmission improved forecast
+        performance. In this study of the 2016 and 2017 seasons, we sought to
+        refine the forecasting method to account for delays in receiving the
+        data, and used meteorological data from past years to modulate the
+        force of infection. We demonstrate how these refinements improved the
+        forecast's predictive capacity, and use the 2017 influenza season to
+        highlight challenges in accounting for popu-lation and clinician
+        behaviour changes in response to a severe season.
+        </span>
+      </li>
+      <li class="epi"><a
         href="https://doi.org/10.3390/tropicalmed4010012">Accounting for
         healthcare-seeking behaviours and testing practices in real-time
         influenza forecasts</a><br/>
@@ -128,7 +162,7 @@ title: Publications
         emerged as a popular method for forecasting the progression of these
         epidemics. Despite extensive research it is still unclear what the
         optimal models are for forecasting influenza, and how one even
-        measures forecast performance.<br/>
+        measures forecast performance.<br/><br/>
         In this paper, we present a likelihood-based method, akin to Bayes
         factors, for model selection when the aim is to select for predictive
         skill. Here, "predictive skill" is measured by the probability of the
@@ -144,7 +178,7 @@ title: Publications
         their predictive skill. Both measurements of absolute humidity and a
         sinusoidal approximation of those measurements are observed to
         increase the predictive skill of the forecasts, while allowing for
-        inhomogeneous mixing reduces the skill.<br/>
+        inhomogeneous mixing reduces the skill.<br/><br/>
         We discuss how our work could be integrated into a forecasting system
         and how the model selection method could be used to evaluate forecasts
         when comparing to multiple surveillance systems providing disparate
@@ -506,7 +540,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
   limited. Here we use the epidemiological data collected during the
   2009 influenza pandemic in Mongolia to calibrate a computational model
   of influenza virus dissemination in a Mongolian pandemic, with
-  tailoring to the country’s infrastructural and sociobehavioural
+  tailoring to the country's infrastructural and sociobehavioural
   characteristics. There have been few recent, country-specific
   evaluations of strategies for the mitigation of influenza,
   particularly in resource-poor settings. Our results provide novel
@@ -560,7 +594,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
   constraints, such as finite diagnostic and antiviral distribution capacities.
   We find that use of antiviral agents might be capable of containing or
   substantially mitigating an epidemic in only a small proportion of epidemic
-  scenarios given Australia’s existing public health capacities. We then
+  scenarios given Australia's existing public health capacities. We then
   introduce a statistical model that, based on just three characteristics of a
   hypothetical outbreak [(i) the basic reproduction number, (ii) the reduction
   in infectiousness of cases when provided with antiviral agents as treatment,
