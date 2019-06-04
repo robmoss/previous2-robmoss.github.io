@@ -47,7 +47,7 @@ title: Publications
         single city?</a><br/>
         <span class="author">Moss R, Naghizade E, Tomko M, Geard N</span><br/>
         <span class="journal"><b>BMC Public Health</b>
-        19: 656, Mar 2019</span><br/>
+        19: 656, May 2019</span><br/>
         <span class="abstract">
         <strong>Background:</strong>
         Infectious diseases spread through inherently spatial processes. Road
