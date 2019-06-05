@@ -42,6 +42,52 @@ title: Publications
 
 <ul class="publication-list">
       <li class="epi"><a
+        href="https://doi.org/10.1111/irv.12649">Optimal timing of influenza
+        vaccine during pregnancy: A systematic review and meta-analysis</a><br/>
+        <span class="author">Cuningham W, Geard N, Fielding JE, Braat S,
+        Madhi SA, Nunes MC, Christian LM, Lin S-Y, Lee C-N, Yamaguchi K,
+        Bisgaard H, Chawes B, Chao A-S, Blanchard-Rohner G, Schlaudecker EP,
+        Fisher BM, McVernon J, Moss R</span><br/>
+        <span class="journal"><b>Influenza Other Respir Viruses</b>
+        Jun 2019</span><br/>
+        <span class="abstract">
+        <strong>Background:</strong>
+        Pregnant women have an elevated risk of illness and hospitalisation
+        from influenza. Pregnant women are recommended to be prioritised for
+        influenza vaccination during any stage of pregnancy. The risk of
+        seasonal influenza varies substantially throughout the year in
+        temperate climates; however, there is limited knowledge of how
+        vaccination timing during pregnancy impacts the benefits received by
+        the mother and foetus.
+        <br/><strong>Objectives:</strong>
+        To compare antenatal vaccination timing with regard to influenza
+        vaccine immunogenicity during pregnancy and transplacental transfer to
+        their newborns.
+        <br/><strong>Methods:</strong>
+        Studies were eligible for inclusion if immunogenicity to influenza
+        vaccine was evaluated in women stratified by trimester of pregnancy.
+        Haemagglutination inhibition (HI) titres, stratified by trimester of
+        vaccination, had to be measured at either pre-vaccination and within
+        one month post-vaccination, post-vaccination and at delivery in the
+        mother, or in cord/newborn blood. Authors searched PubMed, Scopus, Web
+        of Science and EMBASE databases from inception until June 2016 and
+        authors of identified studies were contacted for additional data.
+        Extracted data were tabulated and summarised via random-effect
+        meta-analyses and qualitative methods.
+        <br/><strong>Results:</strong>
+        Sixteen studies met the inclusion criteria. Meta-analyses found that
+        compared with women vaccinated in an earlier trimester, those
+        vaccinated in a later trimester had a greater fold increase in HI
+        titres (1.33- to 1.96-fold) and higher HI titres in cord/newborn blood
+        (1.21- to 1.64-fold).
+        <br/><strong>Conclusions:</strong>
+        This review provides comparative analysis of the effect of vaccination
+        timing on maternal immunogenicity and protection of the infant that is
+        informative and relevant to current vaccine scheduling for pregnant
+        women.
+        </span>
+      </li>
+      <li class="epi"><a
         href="https://doi.org/10.1186/s12889-019-6968-x">What can urban
         mobility data reveal about the spatial distribution of infection in a
         single city?</a><br/>
