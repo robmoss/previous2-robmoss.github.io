@@ -39,3 +39,5 @@ events.
 It is designed for use in a talk or presentation, where the model population
 size can be set to the number of people in the audience $$N$$, each of whom
 should be given a unique number from $$\{1 \dots N\}$$.
+
+A [simplified interface](/sir-demo/simple.html) is also provided.
