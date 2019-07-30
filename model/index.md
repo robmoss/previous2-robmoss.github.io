@@ -26,14 +26,14 @@ glomerular filtration rate (GFR).
 ## Interactive SEIR infectious disease model
 
 This
-[interactive model](http://mathmodelling.sph.unimelb.edu.au/~rgm/seir-demo/)
+[interactive model](/seir-demo/)
 illustrates how epidemiological parameters, such as the basic reproduction
 number, affect the size and duration of an epidemic.
 
 ## Interactive SIR infectious disease model
 
 This
-[interactive model](http://mathmodelling.sph.unimelb.edu.au/~rgm/sir-demo/)
+[interactive model](/sir-demo/)
 illustrates how outbreaks in small populations are driven by stochastic
 events.
 It is designed for use in a talk or presentation, where the model population
