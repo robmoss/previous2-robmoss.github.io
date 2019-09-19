@@ -6,7 +6,7 @@ js_libs: MathJax
 ---
 
 Originally prepared as a simple demo for 2016 Open Day, this
-[interactive model](http://mathmodelling.sph.unimelb.edu.au/~rgm/seir-demo/)
+[interactive model](https://robmoss.github.io/seir-demo/)
 allows the viewer to explore how a variety of epidemiological parameters
 affect the size and duration of an infectious disease epidemic, such as:
 
