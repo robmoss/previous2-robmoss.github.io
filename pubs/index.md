@@ -42,6 +42,97 @@ title: Publications
 
 <ul class="publication-list">
       <li class="epi"><a
+        href="">Incorporating decision analysis in pandemic planning and
+        response</a><br/>
+        <span class="author">Shearer FM, Moss R, McVernon J, Ross JV,
+        McCaw JM</span><br/>
+        <span class="journal"><b>PLoS Medicine</b>,
+        2020</span><br/>
+        <span class="abstract">
+        </span>
+      </li>
+      <li class="epi"><a
+        href="https://doi.org/10.1093/cid/ciz1238">Influenza vaccine
+        effectiveness against influenza-related mortality in Australian
+        hospitalized patients: a propensity score analysis</a><br/>
+        <span class="author">Nation ML, Moss R, Spittal MJ, Kotsimbos T, Kelly
+        PM, Cheng AC</span><br/>
+        <span class="journal"><b>Clinical Infectious Diseases</b>,
+        Jan 2020</span><br/>
+        <span class="abstract">
+        <strong>Background:</strong>
+        Data on influenza vaccine effectiveness (IVE) against mortality is
+        limited, with no Australian data to guide vaccine uptake. We aimed to
+        assess IVE against influenza-related mortality in Australian
+        hospitalized patients; assess residual confounding in the association
+        between influenza vaccination and mortality; and assess whether
+        influenza vaccination reduces the severity of influenza illness.
+        <br/><strong>Methods:</strong>
+        Data were collected between 2010&ndash;2017 from a national Australian
+        hospital-based sentinel surveillance system using a case-control
+        design. Adults and children admitted to the 17 study hospitals with
+        acute respiratory symptoms were tested for influenza using nucleic
+        acid testing; all eligible test-positive cases were included, and a
+        subset of test-negative controls. Propensity score analysis and
+        multi-variable logistic regression were used to determine the adjusted
+        Odds Ratio (aOR) of vaccination, with IVE=1&minus;aOR &times; 100%.
+        Residual confounding was assessed by examining mortality in controls.
+        <br/><strong>Results:</strong>
+        Over eight seasons, 14038 patients were admitted with
+        laboratory-confirmed influenza. The primary analysis included 9298
+        cases and 6451 controls, with 194 cases and 136 controls dying during
+        hospitalization. Vaccination was associated with a 31% (95% CI:
+        3&ndash;51%, p=0.033) reduction in influenza-related mortality, with
+        similar estimates in the National Immunisation Program target group.
+        Residual confounding was identified in patients &ge;65 years old (aOR:
+        1.92 (95% CI: 1.06&ndash;3.46); p=0.031). There was no evidence that
+        vaccination reduced the severity of influenza illness (aOR: 1.07 (95%
+        CI: 0.76&ndash;1.50); p=0.713).
+        <br/><strong>Conclusions:</strong>
+        Influenza vaccination is associated with a moderate reduction in
+        influenza-related mortality. This finding reinforces the utility of
+        the Australian vaccination program in protecting those most at risk of
+        influenza-related deaths.
+        </span>
+      </li>
+      <li class="epi"><a
+        href="https://doi.org/10.1111/irv.12705">Coordinating the real-time
+        use of global influenza activity data for better public health
+        planning</a><br/>
+        <span class="author">Biggerstaff M, Dahlgren FS, Fitzner J, George D,
+        Hammond A, Hall I, Haw D, Imai N, Johansson MA, Kramer S, McCaw JM,
+        Moss R, Pebody R, Read JM, Reed C, Reich NG, Riley S, Vandemaele KAH,
+        Viboud C, Wu JT</span><br/>
+        <span class="journal"><b>Influenza Other Respir Viruses</b>,
+        Dec 2019</span><br/>
+        <span class="abstract">
+        Health planners from global to local levels must anticipate
+        year-to-year and week-to-week variation in seasonal influenza activity
+        when planning for and responding to epidemics to mitigate their
+        impact. To help with this, countries routinely collect incidence of
+        mild and severe respiratory illness and virologic data on circulating
+        subtypes and use these data for situational awareness, burden of
+        disease estimates and severity assessments. Advanced analytics and
+        modelling are increasingly used to aid planning and response
+        activities by describing key features of influenza activity for a
+        given location and generating forecasts that can be translated to
+        useful actions such as enhanced risk communications, and informing
+        clinical supply chains. Here, we describe the formation of the
+        Influenza Incidence Analytics Group (IIAG), a coordinated global
+        effort to apply advanced analytics and modelling to public influenza
+        data, both epidemiological and virologic, in real-time and thus
+        provide additional insights to countries who provide routine
+        surveillance data to WHO. Our objectives are to systematically
+        increase the value of data to health planners by applying advanced
+        analytics and forecasting and for results to be immediately
+        reproducible and deployable using an open repository of data and code.
+        We expect the resources we develop and the associated community to
+        provide an attractive option for the open analysis of key
+        epidemiological data during seasonal epidemics and the early stages of
+        an influenza pandemic.
+        </span>
+      </li>
+      <li class="epi"><a
         href="https://doi.org/10.1111/irv.12649">Optimal timing of influenza
         vaccine during pregnancy: A systematic review and meta-analysis</a><br/>
         <span class="author">Cuningham W, Geard N, Fielding JE, Braat S,
@@ -49,7 +140,7 @@ title: Publications
         Bisgaard H, Chawes B, Chao A-S, Blanchard-Rohner G, Schlaudecker EP,
         Fisher BM, McVernon J, Moss R</span><br/>
         <span class="journal"><b>Influenza Other Respir Viruses</b>
-        Jun 2019</span><br/>
+        13(5): 438&ndash;452, Sep 2019</span><br/>
         <span class="abstract">
         <strong>Background:</strong>
         Pregnant women have an elevated risk of illness and hospitalisation
