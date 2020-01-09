@@ -42,13 +42,39 @@ title: Publications
 
 <ul class="publication-list">
       <li class="epi"><a
-        href="">Incorporating decision analysis in pandemic planning and
-        response</a><br/>
+        href="https://doi.org/10.1371/journal.pmed.1003018">Incorporating
+        decision analysis in pandemic planning and response</a><br/>
         <span class="author">Shearer FM, Moss R, McVernon J, Ross JV,
         McCaw JM</span><br/>
         <span class="journal"><b>PLoS Medicine</b>,
         2020</span><br/>
         <span class="abstract">
+        &bull;
+        Planning is critical to mitigating the sudden and potentially
+        catastrophic impact of an infectious disease pandemic on society.
+        National pandemic policy documents cover a wide variety of control
+        options, often with nonspecific recommendations for action.
+        <br/> &bull;
+        Despite advances in analytical methods for gaining early situational
+        awareness (i.e., of a disease's transmissibility and severity) and for
+        predicting the likely effectiveness of interventions, a major gap
+        exists globally in terms of integrating these outputs with the advice
+        contained in policy documents.
+        <br/> &bull;
+        Decision models (and decision science as a field, more broadly)
+        provide an approach to defining and evaluating alternative policy
+        options under complex and changing conditions.
+        <br/> &bull;
+        A decision model for infectious disease pandemics is an appropriate
+        method for integrating evidence from situational and intervention
+        analysis tools, along with the information in policy documents, to
+        provide robust advice on possible response options (including
+        uncertainty).
+        <br/> &bull;
+        A decision model for pandemic response cannot capture all of the
+        social, political, and ethical considerations that impact
+        decision-making. Such a model should therefore be embedded in a
+        decision support system that emphasises this broader context.
         </span>
       </li>
       <li class="epi"><a
