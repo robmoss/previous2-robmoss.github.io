@@ -47,7 +47,7 @@ title: Publications
         <span class="author">Shearer FM, Moss R, McVernon J, Ross JV,
         McCaw JM</span><br/>
         <span class="journal"><b>PLoS Medicine</b>,
-        2020</span><br/>
+        17(1): e1003018, Jan 2020</span><br/>
         <span class="abstract">
         &bull;
         Planning is critical to mitigating the sudden and potentially
