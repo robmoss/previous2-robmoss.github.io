@@ -42,6 +42,43 @@ title: Publications
 
 <ul class="publication-list">
       <li class="epi"><a
+        href="https://doi.org/10.1111/irv.12705">Coordinating the real-time
+        use of global influenza activity data for better public health
+        planning</a><br/>
+        <span class="author">Biggerstaff M, Dahlgren FS, Fitzner J, George D,
+        Hammond A, Hall I, Haw D, Imai N, Johansson MA, Kramer S, McCaw JM,
+        Moss R, Pebody R, Read JM, Reed C, Reich NG, Riley S, Vandemaele KAH,
+        Viboud C, Wu JT</span><br/>
+        <span class="journal"><b>Influenza Other Respir Viruses</b>,
+        14(2): 105&ndash;110, Mar 2020</span><br/>
+        <span class="abstract">
+        Health planners from global to local levels must anticipate
+        year-to-year and week-to-week variation in seasonal influenza activity
+        when planning for and responding to epidemics to mitigate their
+        impact. To help with this, countries routinely collect incidence of
+        mild and severe respiratory illness and virologic data on circulating
+        subtypes and use these data for situational awareness, burden of
+        disease estimates and severity assessments. Advanced analytics and
+        modelling are increasingly used to aid planning and response
+        activities by describing key features of influenza activity for a
+        given location and generating forecasts that can be translated to
+        useful actions such as enhanced risk communications, and informing
+        clinical supply chains. Here, we describe the formation of the
+        Influenza Incidence Analytics Group (IIAG), a coordinated global
+        effort to apply advanced analytics and modelling to public influenza
+        data, both epidemiological and virologic, in real-time and thus
+        provide additional insights to countries who provide routine
+        surveillance data to WHO. Our objectives are to systematically
+        increase the value of data to health planners by applying advanced
+        analytics and forecasting and for results to be immediately
+        reproducible and deployable using an open repository of data and code.
+        We expect the resources we develop and the associated community to
+        provide an attractive option for the open analysis of key
+        epidemiological data during seasonal epidemics and the early stages of
+        an influenza pandemic.
+        </span>
+      </li>
+      <li class="epi"><a
         href="https://doi.org/10.1371/journal.pmed.1003018">Incorporating
         decision analysis in pandemic planning and response</a><br/>
         <span class="author">Shearer FM, Moss R, McVernon J, Ross JV,
@@ -119,43 +156,6 @@ title: Publications
         influenza-related mortality. This finding reinforces the utility of
         the Australian vaccination program in protecting those most at risk of
         influenza-related deaths.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1111/irv.12705">Coordinating the real-time
-        use of global influenza activity data for better public health
-        planning</a><br/>
-        <span class="author">Biggerstaff M, Dahlgren FS, Fitzner J, George D,
-        Hammond A, Hall I, Haw D, Imai N, Johansson MA, Kramer S, McCaw JM,
-        Moss R, Pebody R, Read JM, Reed C, Reich NG, Riley S, Vandemaele KAH,
-        Viboud C, Wu JT</span><br/>
-        <span class="journal"><b>Influenza Other Respir Viruses</b>,
-        Dec 2019</span><br/>
-        <span class="abstract">
-        Health planners from global to local levels must anticipate
-        year-to-year and week-to-week variation in seasonal influenza activity
-        when planning for and responding to epidemics to mitigate their
-        impact. To help with this, countries routinely collect incidence of
-        mild and severe respiratory illness and virologic data on circulating
-        subtypes and use these data for situational awareness, burden of
-        disease estimates and severity assessments. Advanced analytics and
-        modelling are increasingly used to aid planning and response
-        activities by describing key features of influenza activity for a
-        given location and generating forecasts that can be translated to
-        useful actions such as enhanced risk communications, and informing
-        clinical supply chains. Here, we describe the formation of the
-        Influenza Incidence Analytics Group (IIAG), a coordinated global
-        effort to apply advanced analytics and modelling to public influenza
-        data, both epidemiological and virologic, in real-time and thus
-        provide additional insights to countries who provide routine
-        surveillance data to WHO. Our objectives are to systematically
-        increase the value of data to health planners by applying advanced
-        analytics and forecasting and for results to be immediately
-        reproducible and deployable using an open repository of data and code.
-        We expect the resources we develop and the associated community to
-        provide an attractive option for the open analysis of key
-        epidemiological data during seasonal epidemics and the early stages of
-        an influenza pandemic.
         </span>
       </li>
       <li class="epi"><a
@@ -324,7 +324,7 @@ title: Publications
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1111/1753-6405.12750">Epidemic forecasts as
+        href="https://doi.org/10.1111/1753-6405.12750">Epidemic forecasts as
         a tool for public health: interpretation and (re)calibration</a><br/>
         <span class="author">Moss R, Fielding JE, Franklin LJ, Stephens N,
         McVernon J, Dawson P, McCaw JM</span><br/>
@@ -358,7 +358,7 @@ title: Publications
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1016/j.idm.2016.12.004">Model selection for
+        href="https://doi.org/10.1016/j.idm.2016.12.004">Model selection for
         seasonal influenza forecasting</a><br/>
         <span class="author">
           Zarebski AE, Dawson P, McCaw JM, Moss R
@@ -398,7 +398,7 @@ title: Publications
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1017/S0950268816002053">Retrospective
+        href="https://doi.org/10.1017/S0950268816002053">Retrospective
         forecasting of the 2010&ndash;2014 Melbourne influenza seasons using
         multiple surveillance systems</a><br/>
         <span class="author">
@@ -434,7 +434,7 @@ title: Publications
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1186/s12879-016-1866-7">Reducing disease
+        href="https://doi.org/10.1186/s12879-016-1866-7">Reducing disease
         burden in an influenza pandemic by targeted delivery of neuraminidase
         inhibitors: mathematical models in the Australian context</a><br/>
         <span class="author">
@@ -474,7 +474,7 @@ title: Publications
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1371/journal.pntd.0005018">Model-informed
+        href="https://doi.org/10.1371/journal.pntd.0005018">Model-informed
         risk assessment and decision making for an emerging infectious disease
         in the Asia-Pacific region</a><br/>
         <span class="author">
@@ -521,7 +521,7 @@ title: Publications
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1111/irv.12376">Forecasting influenza
+        href="https://doi.org/10.1111/irv.12376">Forecasting influenza
         outbreak dynamics in Melbourne from Internet search query surveillance
         data</a><br/>
         <span class="author">
@@ -563,7 +563,7 @@ title: Publications
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1371/journal.pcbi.1004334">Innate immunity
+        href="https://doi.org/10.1371/journal.pcbi.1004334">Innate immunity
         and the inter-exposure interval determine the dynamics of secondary
         influenza virus infection and explain observed viral
         hierarchies</a><br/>
@@ -611,7 +611,7 @@ response to influenza and its role in viral control.
         </span>
       </li>
       <li class="renal"><a
-        href="http://dx.doi.org/10.1152/ajprenal.00500.2013">Dominant factors
+        href="https://doi.org/10.1152/ajprenal.00500.2013">Dominant factors
         that govern pressure natriuresis in diuresis and antidiuresis: a
         mathematical model</a><br/>
         <span class="author">
@@ -646,7 +646,7 @@ response to influenza and its role in viral control.
         </span>
       </li>
       <li class="renal"><a
-        href="http://dx.doi.org/10.1152/ajprenal.00089.2013">Hormonal
+        href="https://doi.org/10.1152/ajprenal.00089.2013">Hormonal
           regulation of salt and water excretion: a mathematical model of
           whole-kidney function and pressure-natriuresis</a><br/>
         <span class="author">
@@ -677,7 +677,7 @@ response to influenza and its role in viral control.
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1016/j.epidem.2012.12.002">Drivers and
+        href="https://doi.org/10.1016/j.epidem.2012.12.002">Drivers and
           consequences of influenza antiviral resistant-strain emergence in a
           capacity-constrained pandemic response</a><br/>
         <span class="author">
@@ -706,7 +706,7 @@ response to influenza and its role in viral control.
         </span>
       </li>
       <li class="renal"><a
-        href="http://dx.doi.org/10.1371/journal.pcbi.1002571">Virtual patients
+        href="https://doi.org/10.1371/journal.pcbi.1002571">Virtual patients
           and sensitivity analysis of the Guyton model of blood pressure
           regulation: towards individualized models of whole-body
           physiology</a><br/>
@@ -762,7 +762,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
         </span>
       </li>
       <li class="renal"><a
-        href="http://dx.doi.org/10.1016/j.pbiomolbio.2011.06.008">Integration
+        href="https://doi.org/10.1016/j.pbiomolbio.2011.06.008">Integration
           of detailed modules in a core model of body fluid homeostasis and
           blood pressure regulation</a><br/>
         <span class="author">
@@ -788,7 +788,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1111/j.1750-2659.2011.00209.x">A decision
+        href="https://doi.org/10.1111/j.1750-2659.2011.00209.x">A decision
           support tool for evaluating the impact of a diagnostic-capacity and
           antiviral-delivery constrained intervention strategy on an influenza
           pandemic</a><br/>
@@ -819,7 +819,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
         </span>
       </li>
       <li class="epi"><a
-        href="http://dx.doi.org/10.1371/journal.pone.0014505">Diagnosis and
+        href="https://doi.org/10.1371/journal.pone.0014505">Diagnosis and
           antiviral intervention strategies for mitigating an influenza
           pandemic</a><br/>
         <span class="author">
@@ -841,7 +841,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
         </span>
       </li>
       <li class="renal"><a
-        href="http://dx.doi.org/10.1016/j.physd.2009.08.015">Discrete network
+        href="https://doi.org/10.1016/j.physd.2009.08.015">Discrete network
           models of interacting nephrons</a><br/>
         <span class="author">
           Moss R, Kazmierczak E, Kirley M, Harris PJ
@@ -861,7 +861,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
   performance characteristics of the model.
         </span>
       </li>
-      <li class="renal"><a href="http://dx.doi.org/10.1098/rsta.2008.0313">A
+      <li class="renal"><a href="https://doi.org/10.1098/rsta.2008.0313">A
           computational model for emergent dynamics in the kidney</a><br/>
         <span class="author">
           Moss R, Kazmierczak E, Kirley M, Harris PJ
@@ -879,7 +879,7 @@ href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
   nephrons are explored in 2-, 8- and 72-nephron models.
         </span>
       </li>
-      <li class="renal"><a href="http://dx.doi.org/10.1098/rsta.2008.0291">The
+      <li class="renal"><a href="https://doi.org/10.1098/rsta.2008.0291">The
           Virtual Kidney: an e-Science interface and Grid Portal</a><br/>
         <span class="author">
           Harris PJ, Buyya R, Chu X, Kobialka T, Kazmierczak E, Moss R,
