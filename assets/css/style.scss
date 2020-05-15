@@ -62,7 +62,7 @@ article * + h3 { margin-top: 1.5em; }
 p { text-align: justify; }
 em { color: var(--fg-green); }
 a { color: var(--fg-blue); }
-a.more { color: var(--fg-magenta); }
+a.more { color: var(--fg-blue); }
 footer { text-align: center; border-color: var(--bg-highlight); }
 
 /* Basic list appearance. */
@@ -173,7 +173,7 @@ aside img, .post .body aside p img {
 aside .name { line-height: 1.25em; margin-bottom: 0.25em;
               color: var(--fg-cyan); border-bottom: 2px solid var(--fg-cyan);}
 aside .item { line-height: 1.5em; font-size: 0.75em; font-weight: normal; }
-aside a  { color: var(--fg-magenta); }
+aside a  { color: var(--fg-blue); }
 
 /*****************************************************************************
   Blog post listings (nav.posts, .post.in-listing)
@@ -189,7 +189,7 @@ nav.posts h2 {
     font-size: 1.2em;
 }
 /* Highlight the target tag ... */
-nav.posts h2:target { color: var(--fg-magenta); }
+nav.posts h2:target { color: var(--fg-blue); }
 
 .post.in-listing {
     margin-top: 2.5em;
