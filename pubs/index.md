@@ -1,927 +1,150 @@
 ---
 title: Publications
 ---
-<script language="javascript">
-      function toggle_abs() {
-        var spans = document.getElementsByClassName("abstract");
-        var display = "";
-        if (document.getElementById("abs").checked) {
-          display = "inline";
-        } else {
-          display = "none";
-        }
-        for (var i = 0; i < spans.length; i++) {
-          spans[i].style["display"] = display;
-        }
-      }
-
-      function hide_noscript() {
-        var to_hide = document.getElementsByClassName("hidejs");
-        var to_show = document.getElementsByClassName("showjs");
-        for (var i = 0; i < to_hide.length; i++) {
-          to_hide[i].style["display"] = "none";
-        }
-        for (var i = 0; i < to_show.length; i++) {
-          to_show[i].style["display"] = "block";
-        }
-        to_hide = document.getElementsByClassName("abstract");
-        for (var i = 0; i < to_hide.length; i++) {
-          to_hide[i].style["display"] = "none";
-        }
-      }
-</script>
-<p class="showjs">
-  <label>
-  <input type="checkbox" id="abs" name="abs" onclick="toggle_abs();"/>
-  Display publication abstracts.
-  </label>
-</p>
-<p class="hidejs">
-  <strong>Please enable javascript to view publication abstracts.</strong>
-</p>
 
 <ul class="publication-list">
-      <li class="epi"><a
-        href="https://doi.org/10.1111/irv.12705">Coordinating the real-time
-        use of global influenza activity data for better public health
-        planning</a><br/>
-        <span class="author">Biggerstaff M, Dahlgren FS, Fitzner J, George D,
-        Hammond A, Hall I, Haw D, Imai N, Johansson MA, Kramer S, McCaw JM,
-        Moss R, Pebody R, Read JM, Reed C, Reich NG, Riley S, Vandemaele KAH,
-        Viboud C, Wu JT</span><br/>
-        <span class="journal"><b>Influenza Other Respir Viruses</b>,
-        14(2): 105&ndash;110, Mar 2020</span><br/>
-        <span class="abstract">
-        Health planners from global to local levels must anticipate
-        year-to-year and week-to-week variation in seasonal influenza activity
-        when planning for and responding to epidemics to mitigate their
-        impact. To help with this, countries routinely collect incidence of
-        mild and severe respiratory illness and virologic data on circulating
-        subtypes and use these data for situational awareness, burden of
-        disease estimates and severity assessments. Advanced analytics and
-        modelling are increasingly used to aid planning and response
-        activities by describing key features of influenza activity for a
-        given location and generating forecasts that can be translated to
-        useful actions such as enhanced risk communications, and informing
-        clinical supply chains. Here, we describe the formation of the
-        Influenza Incidence Analytics Group (IIAG), a coordinated global
-        effort to apply advanced analytics and modelling to public influenza
-        data, both epidemiological and virologic, in real-time and thus
-        provide additional insights to countries who provide routine
-        surveillance data to WHO. Our objectives are to systematically
-        increase the value of data to health planners by applying advanced
-        analytics and forecasting and for results to be immediately
-        reproducible and deployable using an open repository of data and code.
-        We expect the resources we develop and the associated community to
-        provide an attractive option for the open analysis of key
-        epidemiological data during seasonal epidemics and the early stages of
-        an influenza pandemic.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1371/journal.pmed.1003018">Incorporating
-        decision analysis in pandemic planning and response</a><br/>
-        <span class="author">Shearer FM, Moss R, McVernon J, Ross JV,
-        McCaw JM</span><br/>
-        <span class="journal"><b>PLoS Medicine</b>,
-        17(1): e1003018, Jan 2020</span><br/>
-        <span class="abstract">
-        &bull;
-        Planning is critical to mitigating the sudden and potentially
-        catastrophic impact of an infectious disease pandemic on society.
-        National pandemic policy documents cover a wide variety of control
-        options, often with nonspecific recommendations for action.
-        <br/> &bull;
-        Despite advances in analytical methods for gaining early situational
-        awareness (i.e., of a disease's transmissibility and severity) and for
-        predicting the likely effectiveness of interventions, a major gap
-        exists globally in terms of integrating these outputs with the advice
-        contained in policy documents.
-        <br/> &bull;
-        Decision models (and decision science as a field, more broadly)
-        provide an approach to defining and evaluating alternative policy
-        options under complex and changing conditions.
-        <br/> &bull;
-        A decision model for infectious disease pandemics is an appropriate
-        method for integrating evidence from situational and intervention
-        analysis tools, along with the information in policy documents, to
-        provide robust advice on possible response options (including
-        uncertainty).
-        <br/> &bull;
-        A decision model for pandemic response cannot capture all of the
-        social, political, and ethical considerations that impact
-        decision-making. Such a model should therefore be embedded in a
-        decision support system that emphasises this broader context.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1093/cid/ciz1238">Influenza vaccine
-        effectiveness against influenza-related mortality in Australian
-        hospitalized patients: a propensity score analysis</a><br/>
-        <span class="author">Nation ML, Moss R, Spittal MJ, Kotsimbos T, Kelly
-        PM, Cheng AC</span><br/>
-        <span class="journal"><b>Clinical Infectious Diseases</b>,
-        Jan 2020</span><br/>
-        <span class="abstract">
-        <strong>Background:</strong>
-        Data on influenza vaccine effectiveness (IVE) against mortality is
-        limited, with no Australian data to guide vaccine uptake. We aimed to
-        assess IVE against influenza-related mortality in Australian
-        hospitalized patients; assess residual confounding in the association
-        between influenza vaccination and mortality; and assess whether
-        influenza vaccination reduces the severity of influenza illness.
-        <br/><strong>Methods:</strong>
-        Data were collected between 2010&ndash;2017 from a national Australian
-        hospital-based sentinel surveillance system using a case-control
-        design. Adults and children admitted to the 17 study hospitals with
-        acute respiratory symptoms were tested for influenza using nucleic
-        acid testing; all eligible test-positive cases were included, and a
-        subset of test-negative controls. Propensity score analysis and
-        multi-variable logistic regression were used to determine the adjusted
-        Odds Ratio (aOR) of vaccination, with IVE=1&minus;aOR &times; 100%.
-        Residual confounding was assessed by examining mortality in controls.
-        <br/><strong>Results:</strong>
-        Over eight seasons, 14038 patients were admitted with
-        laboratory-confirmed influenza. The primary analysis included 9298
-        cases and 6451 controls, with 194 cases and 136 controls dying during
-        hospitalization. Vaccination was associated with a 31% (95% CI:
-        3&ndash;51%, p=0.033) reduction in influenza-related mortality, with
-        similar estimates in the National Immunisation Program target group.
-        Residual confounding was identified in patients &ge;65 years old (aOR:
-        1.92 (95% CI: 1.06&ndash;3.46); p=0.031). There was no evidence that
-        vaccination reduced the severity of influenza illness (aOR: 1.07 (95%
-        CI: 0.76&ndash;1.50); p=0.713).
-        <br/><strong>Conclusions:</strong>
-        Influenza vaccination is associated with a moderate reduction in
-        influenza-related mortality. This finding reinforces the utility of
-        the Australian vaccination program in protecting those most at risk of
-        influenza-related deaths.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1111/irv.12649">Optimal timing of influenza
-        vaccine during pregnancy: A systematic review and meta-analysis</a><br/>
-        <span class="author">Cuningham W, Geard N, Fielding JE, Braat S,
-        Madhi SA, Nunes MC, Christian LM, Lin S-Y, Lee C-N, Yamaguchi K,
-        Bisgaard H, Chawes B, Chao A-S, Blanchard-Rohner G, Schlaudecker EP,
-        Fisher BM, McVernon J, Moss R</span><br/>
-        <span class="journal"><b>Influenza Other Respir Viruses</b>
-        13(5): 438&ndash;452, Sep 2019</span><br/>
-        <span class="abstract">
-        <strong>Background:</strong>
-        Pregnant women have an elevated risk of illness and hospitalisation
-        from influenza. Pregnant women are recommended to be prioritised for
-        influenza vaccination during any stage of pregnancy. The risk of
-        seasonal influenza varies substantially throughout the year in
-        temperate climates; however, there is limited knowledge of how
-        vaccination timing during pregnancy impacts the benefits received by
-        the mother and foetus.
-        <br/><strong>Objectives:</strong>
-        To compare antenatal vaccination timing with regard to influenza
-        vaccine immunogenicity during pregnancy and transplacental transfer to
-        their newborns.
-        <br/><strong>Methods:</strong>
-        Studies were eligible for inclusion if immunogenicity to influenza
-        vaccine was evaluated in women stratified by trimester of pregnancy.
-        Haemagglutination inhibition (HI) titres, stratified by trimester of
-        vaccination, had to be measured at either pre-vaccination and within
-        one month post-vaccination, post-vaccination and at delivery in the
-        mother, or in cord/newborn blood. Authors searched PubMed, Scopus, Web
-        of Science and EMBASE databases from inception until June 2016 and
-        authors of identified studies were contacted for additional data.
-        Extracted data were tabulated and summarised via random-effect
-        meta-analyses and qualitative methods.
-        <br/><strong>Results:</strong>
-        Sixteen studies met the inclusion criteria. Meta-analyses found that
-        compared with women vaccinated in an earlier trimester, those
-        vaccinated in a later trimester had a greater fold increase in HI
-        titres (1.33- to 1.96-fold) and higher HI titres in cord/newborn blood
-        (1.21- to 1.64-fold).
-        <br/><strong>Conclusions:</strong>
-        This review provides comparative analysis of the effect of vaccination
-        timing on maternal immunogenicity and protection of the infant that is
-        informative and relevant to current vaccine scheduling for pregnant
-        women.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1186/s12889-019-6968-x">What can urban
-        mobility data reveal about the spatial distribution of infection in a
-        single city?</a><br/>
-        <span class="author">Moss R, Naghizade E, Tomko M, Geard N</span><br/>
-        <span class="journal"><b>BMC Public Health</b>
-        19: 656, May 2019</span><br/>
-        <span class="abstract">
-        <strong>Background:</strong>
-        Infectious diseases spread through inherently spatial processes. Road
-        and air traffic data have been used to model these processes at
-        national and global scales. At metropolitan scales, however, mobility
-        patterns are fundamentally different and less directly observable.
-        Estimating the spatial distribution of infection has public health
-        utility, but few studies have investigated this at an urban scale. In
-        this study we address the question of whether the use of urban-scale
-        mobility data can improve the prediction of spatial patterns of
-        influenza infection. We compare the use of different sources of
-        urban-scale mobility data, and investigate the impact of other factors
-        relevant to modelling mobility, including mixing within and between
-        regions, and the influence of hub and spoke commuting patterns.
-        <br/><strong>Methods:</strong>
-        We used journey-to-work (JTW) data from the Australian 2011 Census,
-        and GPS journey data from the Sygic GPS Navigation & Maps mobile app,
-        to characterise population mixing patterns in a spatially-explicit
-        SEIR (susceptible, exposed, infectious, recovered) meta-population
-        model.
-        <br/><strong>Results:</strong>
-        Using the JTW data to train the model leads to an increase in the
-        proportion of infections that arise in central Melbourne, which is
-        indicative of the city’s spoke-and-hub road and public transport
-        networks, and of the commuting patterns reflected in these data. Using
-        the GPS data increased the infections in central Melbourne to a lesser
-        extent than the JTW data, and produced a greater heterogeneity in the
-        middle and outer regions. Despite the limitations of both mobility
-        data sets, the model reproduced some of the characteristics observed
-        in the spatial distribution of reported influenza cases.
-        <br/><strong>Conclusions:</strong>
-        Urban mobility data sets can be used to support models that capture
-        spatial heterogeneity in the transmission of infectious diseases at a
-        metropolitan scale. These data should be adjusted to account for
-        relevant urban features, such as highly-connected hubs where the
-        resident population is likely to experience a much lower force of
-        infection that the transient population. In contrast to national and
-        international scales, the relationship between mobility and infection
-        at an urban level is much less apparent, and requires a richer
-        characterisation of population mobility and contact.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.33321/cdi.2019.43.7">Anatomy of a seasonal
-        influenza epidemic forecast</a><br/>
-        <span class="author">Moss R, Zarebski AE, Dawson P, Franklin LJ,
-        Birrell FA, McCaw JM</span><br/>
-        <span class="journal"><b>Communicable Diseases Intelligence</b>
-        43: 1&ndash;14, Mar 2019</span><br/>
-        <span class="abstract">
-        Bayesian methods have been used to predict the timing of infectious
-        disease epidemics in various set-tings and for many infectious
-        diseases, including seasonal influenza. But integrating these
-        techniques into public health practice remains an ongoing challenge,
-        and requires close collaboration between modellers, epidemiologists,
-        and public health staff.
-        <br/><br/>
-        During the 2016 and 2017 Australian influenza seasons, weekly seasonal
-        influenza forecasts were produced for cities in the three states with
-        the largest populations: Victoria, New South Wales and Queensland.
-        Forecast results were presented to Health Department disease
-        surveillance units in these jurisdictions, who provided feedback about
-        the plausibility and public health utility of these predictions.
-        <br/><br/>
-        In earlier studies we found that delays in reporting and processing of
-        surveillance data substantially limited forecast performance, and that
-        incorporating climatic effects on transmission improved forecast
-        performance. In this study of the 2016 and 2017 seasons, we sought to
-        refine the forecasting method to account for delays in receiving the
-        data, and used meteorological data from past years to modulate the
-        force of infection. We demonstrate how these refinements improved the
-        forecast's predictive capacity, and use the 2017 influenza season to
-        highlight challenges in accounting for popu-lation and clinician
-        behaviour changes in response to a severe season.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.3390/tropicalmed4010012">Accounting for
-        healthcare-seeking behaviours and testing practices in real-time
-        influenza forecasts</a><br/>
-        <span class="author">Moss R, Zarebski AE, Carlson SJ,
-        McCaw JM</span><br/>
-        <span class="journal"><b>Tropical Medicine and Infectious Disease</b>
-        4(1): 12, Jan 2019</span><br/>
-        <span class="abstract">
-        For diseases such as influenza, where the majority of infected persons
-        experience mild (if any) symptoms, surveillance systems are sensitive
-        to changes in healthcare-seeking and clinical decision-making
-        behaviours. This presents a challenge when trying to interpret
-        surveillance data in near-real-time (e.g., to provide public health
-        decision-support). Australia experienced a particularly large and
-        severe influenza season in 2017, perhaps in part due to: (a) mild
-        cases being more likely to seek healthcare; and (b) clinicians being
-        more likely to collect specimens for reverse transcription polymerase
-        chain reaction (RT-PCR) influenza tests. In this study, we used weekly
-        Flutracking surveillance data to estimate the probability that a
-        person with influenza-like illness (ILI) would seek healthcare and
-        have a specimen collected. We then used this estimated probability to
-        calibrate near-real-time seasonal influenza forecasts at each week of
-        the 2017 season, to see whether predictive skill could be improved.
-        While the number of self-reported influenza tests in the weekly
-        surveys are typically very low, we were able to detect a substantial
-        change in healthcare seeking behaviour and clinician testing behaviour
-        prior to the high epidemic peak. Adjusting for these changes in
-        behaviour in the forecasting framework improved predictive skill. Our
-        analysis demonstrates a unique value of community-level surveillance
-        systems, such as Flutracking, when interpreting traditional
-        surveillance data. These methods are also applicable beyond the
-        Australian context, as similar community-level surveillance systems
-        operate in other countries.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1111/1753-6405.12750">Epidemic forecasts as
-        a tool for public health: interpretation and (re)calibration</a><br/>
-        <span class="author">Moss R, Fielding JE, Franklin LJ, Stephens N,
-        McVernon J, Dawson P, McCaw JM</span><br/>
-        <span class="journal"><b>Australian and New Zealand Journal of Public
-        Health</b> 42(1): 69&ndash;76, Feb 2018</span><br/>
-        <span class="abstract">
-        <strong>Objective and Methods:</strong> Recent studies have used
-        Bayesian methods to predict timing of influenza epidemics many weeks
-        in advance, but there is no documented evaluation of how such
-        forecasts might support the day-to-day operations of public health
-        staff. During the 2015 influenza season in Melbourne, Australia,
-        weekly forecasts were presented at Health Department surveillance unit
-        meetings and evaluated and updated in light of expert opinion, to
-        improve their accuracy and usefulness.
-        <br/><strong>Results:</strong> Predictive capacity of the model was
-        substantially limited by delays in reporting and processing arising
-        from an unprecedented number of notifications, disproportionate to
-        seasonal intensity. Adjustment of the predictive algorithm to account
-        for these delays and increased reporting propensity improved both
-        current situational awareness and forecasting accuracy.
-        <br/><strong>Conclusions:</strong> Collaborative engagement with
-        public health practitioners in model development improved
-        understanding of the context and limitations of emerging surveillance
-        data. Incorporation of these insights in a quantitative model resulted
-        in more robust estimates of disease activity for public health use.
-        <br/><strong>Implications for Public Health:</strong> In addition to
-        predicting future disease trends, forecasting methods can quantify the
-        impact of delays in data availability and variable reporting practice
-        on the accuracy of current epidemic assessment. Such evidence supports
-        investment in systems capacity.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1016/j.idm.2016.12.004">Model selection for
-        seasonal influenza forecasting</a><br/>
-        <span class="author">
-          Zarebski AE, Dawson P, McCaw JM, Moss R
-        </span><br/>
-        <span class="journal">
-          <b>Infect Dis Mod</b> 2(1): 56&ndash;70, Feb 2017
-        </span><br/>
-        <span class="abstract">
-        Epidemics of seasonal influenza inflict a huge burden in temperate
-        climes such as Melbourne (Australia) where there is also significant
-        variability in their timing and magnitude. Particle filters combined
-        with mechanistic transmission models for the spread of influenza have
-        emerged as a popular method for forecasting the progression of these
-        epidemics. Despite extensive research it is still unclear what the
-        optimal models are for forecasting influenza, and how one even
-        measures forecast performance.<br/><br/>
-        In this paper, we present a likelihood-based method, akin to Bayes
-        factors, for model selection when the aim is to select for predictive
-        skill. Here, "predictive skill" is measured by the probability of the
-        data after the forecasting date, conditional on the data from before
-        the forecasting date. Using this method we choose an optimal model of
-        influenza transmission to forecast the number of laboratory-confirmed
-        cases of influenza in Melbourne in each of the 2010-15 epidemics. The
-        basic transmission model considered has the
-        susceptible-exposed-infectious-recovered structure with extensions
-        allowing for the effects of absolute humidity and inhomogeneous mixing
-        in the population. While neither of the extensions provides a
-        significant improvement in fit to the data they do differ in terms of
-        their predictive skill. Both measurements of absolute humidity and a
-        sinusoidal approximation of those measurements are observed to
-        increase the predictive skill of the forecasts, while allowing for
-        inhomogeneous mixing reduces the skill.<br/><br/>
-        We discuss how our work could be integrated into a forecasting system
-        and how the model selection method could be used to evaluate forecasts
-        when comparing to multiple surveillance systems providing disparate
-        views of influenza activity.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1017/S0950268816002053">Retrospective
-        forecasting of the 2010&ndash;2014 Melbourne influenza seasons using
-        multiple surveillance systems</a><br/>
-        <span class="author">
-          Moss R, Zarebski A, Dawson P, McCaw JM
-        </span><br/>
-        <span class="journal">
-          <b>Epidemiol Infect</b> 145(1): 156&ndash;169, Jan 2017.
-        </span><br/>
-        <span class="abstract">
-        Accurate forecasting of seasonal influenza epidemics is of great
-        concern to healthcare providers in temperate climates, since these
-        epidemics vary substantially in their size, timing and duration from
-        year to year, making it a challenge to deliver timely and
-        proportionate responses.
-        Previous studies have shown that Bayesian estimation techniques can
-        accurately predict when an influenza epidemic will peak many weeks in
-        advance, and we have previously tailored these methods for
-        metropolitan Melbourne (Australia) and Google Flu Trends data.
-        Here we extend these methods to clinical observation and
-        laboratory-confirmation data for Melbourne, on the grounds that these
-        data sources provide more accurate characterizations of influenza
-        activity.
-        We show that from each of these data sources we can accurately predict
-        the timing of the epidemic peak 4-6 weeks in advance.
-        We also show that making simultaneous use of multiple surveillance
-        systems to improve forecast skill remains a fundamental challenge.
-        Disparate systems provide complementary characterizations of disease
-        activity, which may or may not be comparable, and it is unclear how a
-        "ground truth" for evaluating forecasts against these multiple
-        characterizations might be defined.
-        These findings are a significant step towards making optimal use of
-        routine surveillance data for outbreak forecasting.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1186/s12879-016-1866-7">Reducing disease
-        burden in an influenza pandemic by targeted delivery of neuraminidase
-        inhibitors: mathematical models in the Australian context</a><br/>
-        <span class="author">
-          Moss R, McCaw JM, Cheng AC, Hurt AC, McVernon J
-        </span><br/>
-        <span class="journal">
-          <b>BMC Infect Dis</b> 16(1): 552, Oct 2016.
-        </span><br/>
-        <span class="abstract">
-        <strong>Background:</strong> Many nations maintain stockpiles of
-        neuraminidase inhibitor (NAI) antiviral agents for use in influenza
-        pandemics to reduce transmission and mitigate the course of clinical
-        infection. Pandemic preparedness plans include the use of these
-        stockpiles to deliver proportionate responses, informed by emerging
-        evidence of clinical impact. Recent uncertainty about the
-        effectiveness of NAIs has prompted these nations to reconsider the
-        role of NAIs in pandemic response, with implications for pandemic
-        planning and for NAI stockpile size.
-        <br/><strong>Methods:</strong> We combined a dynamic model of
-        influenza epidemiology with a model of the clinical care pathways in
-        the Australian health care system to identify effective NAI
-        strategies for reducing morbidity and mortality in pandemic events,
-        and the stockpile requirements for these strategies. The models were
-        informed by a 2015 assessment of NAI effectiveness against
-        susceptibility, pathogenicity, and transmission of influenza.
-        <br/><strong>Results:</strong> Liberal distribution of NAIs for early
-        treatment in outpatient settings yielded the greatest benefits in all
-        of the considered scenarios. Restriction of community-based treatment
-        to risk groups was effective in those groups, but failed to prevent
-        the large proportion of cases arising from lower risk individuals who
-        comprise the majority of the population.
-        <br/><strong>Conclusions:</strong> These targeted strategies are only
-        effective if they can be deployed within the constraints of existing
-        health care infrastructure. This finding highlights the critical
-        importance of identifying optimal models of care delivery for
-        effective emergency health care response.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1371/journal.pntd.0005018">Model-informed
-        risk assessment and decision making for an emerging infectious disease
-        in the Asia-Pacific region</a><br/>
-        <span class="author">
-          Moss R, Hickson RI, McVernon J, McCaw JM, Hort K, Black J,
-          Madden JR, Tran NH, McBryde ES, Geard N
-        </span><br/>
-        <span class="journal">
-          <b>PLoS Negl Trop Dis</b> 10(9): e0005018, Sep 2016.
-        </span><br/>
-        <span class="abstract">
-        <strong>Background:</strong> Effective response to emerging infectious
-        disease (EID) threats relies on health care systems that can detect
-        and contain localised outbreaks before they reach a national or
-        international scale.
-        The Asia-Pacific region contains low and middle income countries in
-        which the risk of EID outbreaks is elevated and whose health care
-        systems may require international support to effectively detect and
-        respond to such events.
-        The absence of comprehensive data on populations, health care systems
-        and disease characteristics in this region makes risk assessment and
-        decisions about the provision of such support challenging.
-        <br/><strong>Methodology/principal findings:</strong> We describe a
-        mathematical modelling framework that can inform this process by
-        integrating available data sources, systematically explore the effects
-        of uncertainty, and provide estimates of outbreak risk under a range
-        of intervention scenarios.
-        We illustrate the use of this framework in the context of a potential
-        importation of Ebola Virus Disease into the Asia-Pacific region.
-        Results suggest that, across a wide range of plausible scenarios,
-        preemptive interventions supporting the timely detection of early
-        cases provide substantially greater reductions in the probability of
-        large outbreaks than interventions that support health care system
-        capacity after an outbreak has commenced.
-        <br/><strong>Conclusions/significance</strong> Our study demonstrates
-        how, in the presence of substantial uncertainty about health care
-        system infrastructure and other relevant aspects of disease control,
-        mathematical models can be used to assess the constraints that limited
-        resources place upon the ability of local health care systems to
-        detect and respond to EID outbreaks in a timely and effective fashion.
-        Our framework can help evaluate the relative impact of these
-        constraints to identify resourcing priorities for health care system
-        support, in order to inform principled and quantifiable decision
-        making.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1111/irv.12376">Forecasting influenza
-        outbreak dynamics in Melbourne from Internet search query surveillance
-        data</a><br/>
-        <span class="author">
-           Moss R, Zarebski A, Dawson P, McCaw JM
-        </span><br/>
-        <span class="journal">
-          <b>Influenza Other Respir Viruses</b> 10(4): 314&ndash;323, Jul 2016
-        </span><br/>
-        <span class="abstract">
-        <strong>Background:</strong>
-        Accurate forecasting of seasonal influenza epidemics is of great
-        concern to healthcare providers in temperate climates, since these
-        epidemics vary substantially in their size, timing and duration from
-        year to year, making it a challenge to deliver timely and
-        proportionate responses.
-        Previous studies have shown that Bayesian estimation techniques can
-        accurately predict when an influenza epidemic will peak many weeks in
-        advance, using existing surveillance data, but these methods must be
-        tailored both to the target population and to the surveillance system.
-        <br/><strong>Objectives:</strong>
-        Our aim was to evaluate whether forecasts of similar accuracy could be
-        obtained for metropolitan Melbourne (Australia).
-        <br/><strong>Methods:</strong>
-        We used the bootstrap particle filter and a mechanistic infection
-        model to generate epidemic forecasts for metropolitan Melbourne
-        (Australia) from weekly internet search query surveillance data
-        reported by Google Flu Trends for 2006–14.
-        <br/><strong>Results and Conclusions:</strong>
-        Optimal observation models were selected from hundreds of candidates
-        using a novel approach that treats forecasts akin to receiver
-        operating characteristic (ROC) curves.
-        We show that the timing of the epidemic peak can be accurately
-        predicted 4–6 weeks in advance, but that the magnitude of the epidemic
-        peak and the overall burden are much harder to predict.
-        We then discuss how the infection and observation models and the
-        filtering process may be refined to improve forecast robustness,
-        thereby improving the utility of these methods for healthcare decision
-        support.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1371/journal.pcbi.1004334">Innate immunity
-        and the inter-exposure interval determine the dynamics of secondary
-        influenza virus infection and explain observed viral
-        hierarchies</a><br/>
-        <span class="author">
-           Cao P, Yan AWC, Heffernan JM, Petrie S, Moss R, Carolan LA,
-           Guarnaccia TA, Kelso A, Barr IG, McVernon J, Laurie KL, McCaw JM
-        </span><br/>
-        <span class="journal">
-          <b>PLoS Comp Biol</b> 11(8): e1004334, Aug 2015
-        </span><br/>
-        <span class="abstract">
-Influenza is an infectious disease that primarily attacks the respiratory
-system.
-Innate immunity provides both a very early defense to influenza virus invasion
-and an effective control of viral growth.
-Previous modelling studies of virus–innate immune response interactions have
-focused on infection with a single virus and, while improving our
-understanding of viral and immune dynamics, have been unable to effectively
-evaluate the relative feasibility of different hypothesised mechanisms of
-antiviral immunity.
-In recent experiments, we have applied consecutive exposures to different
-virus strains in a ferret model, and demonstrated that viruses differed in
-their ability to induce a state of temporary immunity or viral interference
-capable of modifying the infection kinetics of the subsequent exposure.
-These results imply that virus-induced early immune responses may be
-responsible for the observed viral hierarchy.
-Here we introduce and analyse a family of within-host models of re-infection
-viral kinetics which allow for different viruses to stimulate the innate
-immune response to different degrees.
-The proposed models differ in their hypothesised mechanisms of action of the
-non-specific innate immune response.
-We compare these alternative models in terms of their abilities to reproduce
-the re-exposure data.
-Our results show that 1) a model with viral control mediated solely by a
-virus-resistant state, as commonly considered in the literature, is not able
-to reproduce the observed viral hierarchy; 2) the synchronised and
-desynchronised behaviour of consecutive virus infections is highly dependent
-upon the interval between primary virus and challenge virus exposures and is
-consistent with virus-dependent stimulation of the innate immune response.
-Our study provides the first mechanistic explanation for the recently observed
-influenza viral hierarchies and demonstrates the importance of understanding
-the host response to multi-strain viral infections.
-Re-exposure experiments provide a new paradigm in which to study the immune
-response to influenza and its role in viral control.
-        </span>
-      </li>
-      <li class="renal"><a
-        href="https://doi.org/10.1152/ajprenal.00500.2013">Dominant factors
-        that govern pressure natriuresis in diuresis and antidiuresis: a
-        mathematical model</a><br/>
-        <span class="author">
-          Moss R, Layton AT
-        </span><br/>
-        <span class="journal">
-          <b>AJP Renal</b> 306(9): F952&ndash;F969, May 2014
-        </span><br/>
-        <span class="abstract">
-  We have developed a whole-kidney model of the urine concentrating mechanism
-  and renal autoregulation.
-  The model represents the tubuloglomerular feedback (TGF) and myogenic
-  mechanisms, which together affect the resistance of the afferent arteriole
-  and thus glomerular filtration rate.
-  TGF is activated by fluctuations in macula densa [Cl-] and myogenic
-  mechanism by changes in hydrostatic pressure.
-  The model was used to investigate the relative contributions of medullary
-  blood flow autoregulation and inhibition of transport in the proximal
-  convoluted tubule to pressure natriuresis in both diuresis and antidiuresis.
-  The model predicts that medullary blood flow autoregulation, which only
-  affects the interstitial solute composition in the model, has negligible
-  influence on the rate of NaCl excretion.
-  However, it exerts a significant effect on urine flow, particularly in the
-  antidiuretic kidney.
-  This suggests that interstitial washout has significant implications for the
-  maintenance of hydration status but little direct bearing on salt excretion,
-  and that medullary blood flow may only play a signalling role for
-  stimulating a pressure-natriuresis response.
-  Inhibited reabsorption in the model proximal convoluted tubule is capable of
-  driving pressure natriuresis when the known actions of vasopressin on the
-  collecting duct epithelium are taken into account.
-        </span>
-      </li>
-      <li class="renal"><a
-        href="https://doi.org/10.1152/ajprenal.00089.2013">Hormonal
-          regulation of salt and water excretion: a mathematical model of
-          whole-kidney function and pressure-natriuresis</a><br/>
-        <span class="author">
-          Moss R, Thomas SR
-        </span><br/>
-        <span class="journal">
-          <b>AJP Renal</b> 306(2): F224&ndash;F248, Jan 2014
-        </span><br/>
-        <span class="abstract">
-  We present a lumped-nephron model that explicitly represents the main
-  features of the underlying physiology, incorporating the major hormonal
-  regulatory effects on both tubular and vascular function, and which
-  accurately simulates hormonal regulation of renal salt and water excretion.
-  This is the first model to explicitly couple glomerulovascular and medullary
-  dynamics, and it is much more detailed in structure than existing
-  whole-organ models and renal portions of multi-organ models.
-  In contrast to previous medullary models, which have only considered the
-  antidiuretic state, our model is able to regulate water and sodium excretion
-  over a variety of experimental conditions in good agreement with data from
-  experimental studies of the rat.
-  Since the properties of the vasculature and epithelia are explicitly
-  represented, they can be altered to simulate pathophysiological conditions
-  and pharmacological interventions.
-  The model serves as an appropriate starting point for simulations of
-  physiological, pathophysiological and pharmacological renal conditions, and
-  for exploring the relationship between the extra-renal environment and renal
-  excretory function in physiological and pathophysiological contexts.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1016/j.epidem.2012.12.002">Drivers and
-          consequences of influenza antiviral resistant-strain emergence in a
-          capacity-constrained pandemic response</a><br/>
-        <span class="author">
-          Dafilis MP, Moss R, McVernon J, McCaw J
-        </span><br/>
-        <span class="journal">
-          <b>Epidemics</b> 4(4): 219&ndash;226, Dec 2012.
-        </span><br/>
-        <span class="abstract">
-  Antiviral agents remain a key component of most pandemic influenza
-  preparedness plans, but concerns exist regarding the likelihood of
-  wide-scale distribution to select for drug-resistant variants.
-  We used a model that considers the influence of logistical constraints on
-  diagnosis and drug delivery to consider achievable "reach" of alternative
-  antiviral intervention strategies targeted at cases of varying severity, with
-  or without pre-exposure prophylaxis of contacts.
-  Within our framework, "real world" constraints substantially reduced
-  achievable drug coverage below stated targets as the epidemic progressed.
-  Definitive containment of transmission was unlikely but, where observed,
-  achieved through early liberal post-exposure prophylaxis of known contacts of
-  treated cases.
-  Predictors of resistant strain dominance were high intrinsic fitness relative
-  to the wild type virus, and early emergence in the course of the epidemic into
-  a largely susceptible population, even when drug use was restricted to severe
-  case treatment.
-        </span>
-      </li>
-      <li class="renal"><a
-        href="https://doi.org/10.1371/journal.pcbi.1002571">Virtual patients
-          and sensitivity analysis of the Guyton model of blood pressure
-          regulation: towards individualized models of whole-body
-          physiology</a><br/>
-        <span class="author">
-          Moss R, Grosse T, Marchant I, Lassau N, Gueyffier F, Thomas SR
-        </span><br/>
-        <span class="journal">
-          <b>PLoS Comp Biol</b> 8(6): e1002571, Jun 2012.
-        </span><br/>
-        <span class="abstract">
-  We present a methodology for systematically analysing the interactions
-  between parameters and outputs in large-scale mathematical models,
-  using the Guyton model of circulatory regulation as a case study. This
-  model remains a landmark achievement that contributed to the
-  development of our current understanding of blood pressure control,
-  and we present the first comprehensive sensitivity analysis of this
-  model. The results provide new insight into the multi-level
-  interactions in the cardiovascular-renal system and will be useful to
-  researchers wishing to use the model in pathophysiological or
-  pharmacological settings. This methodology is applicable to current
-  and future physiological models of arbitrary complexity.
-        </span>
-      </li>
-      <li class="epi"><a
-href="http://www.who.int/bulletin/volumes/90/4/11-093419/en/index.html">Likely
-          effectiveness of pharmaceutical and non-pharmaceutical interventions
-          for mitigating influenza virus transmission in Mongolia</a><br/>
-        <span class="author">
-          Bolton KJ, McCaw JM, Moss R, Morris RS, Wang S, Burma A, Darma B,
-          Narangerel D, Nymadawa P, McVernon J
-        </span><br/>
-        <span class="journal">
-          <b>Bull WHO</b> 90(4): 264&ndash;271, Apr 2012.
-        </span><br/>
-        <span class="abstract">
-  The efficient use of resources to mitigate the spread of an emerging
-  infectious disease is of global interest. However, the most
-  appropriate control strategies in any given area probably depend on
-  the nature of the local population and environment. Implementing
-  interventions against emerging infectious diseases is particularly
-  important in developing countries, such as Mongolia, where the
-  capacity to provide health care and undertake detailed surveillance is
-  limited. Here we use the epidemiological data collected during the
-  2009 influenza pandemic in Mongolia to calibrate a computational model
-  of influenza virus dissemination in a Mongolian pandemic, with
-  tailoring to the country's infrastructural and sociobehavioural
-  characteristics. There have been few recent, country-specific
-  evaluations of strategies for the mitigation of influenza,
-  particularly in resource-poor settings. Our results provide novel
-  insights into the probable benefits of anti-influenza interventions in
-  Mongolia, some of which are potentially relevant in pandemic planning
-  in other low-income regions.
-        </span>
-      </li>
-      <li class="renal"><a
-        href="https://doi.org/10.1016/j.pbiomolbio.2011.06.008">Integration
-          of detailed modules in a core model of body fluid homeostasis and
-          blood pressure regulation</a><br/>
-        <span class="author">
-          Hernández AI, Le Rolle V, Ojeda D, Baconnier P, Fontecave-Jallon J,
-          Guillaud F, Grosse T, Moss R, Hannaert P, Thomas SR
-        </span><br/>
-        <span class="journal">
-          <b>Prog Biophys Mol Biol</b>, 107(1):169&ndash;182, Oct 2011.
-        </span><br/>
-        <span class="abstract">
-  This paper presents a contribution to the definition of the interfaces
-  required to perform heterogeneous model integration in the context of
-  integrative physiology. A formalisation of the model integration problem
-  is proposed and a coupling method is presented. The extension of the classic
-  Guyton model, a multi-organ, integrated systems model of blood pressure
-  regulation, is used as an example of the application of the proposed method.
-  To this end, the Guyton model has been restructured, extensive sensitivity
-  analyses have been performed, and appropriate transformations have been
-  applied to replace a subset of its constituting modules by integrating a
-  pulsatile heart and an updated representation of the renin-angiotensin
-  system. Simulation results of the extended integrated model are presented
-  and the impacts of their integration within the original model are evaluated.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1111/j.1750-2659.2011.00209.x">A decision
-          support tool for evaluating the impact of a diagnostic-capacity and
-          antiviral-delivery constrained intervention strategy on an influenza
-          pandemic</a><br/>
-        <span class="author">
-          McCaw JM, Moss R, McVernon J
-        </span><br/>
-        <span class="journal">
-          <b>Influenza Other Respi Viruses</b> 5(Suppl. 1): 212&ndash;215, May
-          2011.<br/>
-          <b>Proceedings:</b> Options for the Control of Influenza VII,
-          3&ndash;7 Sep 2010.
-        </span><br/>
-        <span class="abstract">
-  We summarise results from a recently developed model that includes real-world
-  constraints, such as finite diagnostic and antiviral distribution capacities.
-  We find that use of antiviral agents might be capable of containing or
-  substantially mitigating an epidemic in only a small proportion of epidemic
-  scenarios given Australia's existing public health capacities. We then
-  introduce a statistical model that, based on just three characteristics of a
-  hypothetical outbreak [(i) the basic reproduction number, (ii) the reduction
-  in infectiousness of cases when provided with antiviral agents as treatment,
-  and (iii) the proportion of cases that present for medical attention],
-  accurately predicts whether or not an antiviral intervention strategy will be
-  successful. The model highlights the importance of having data collection
-  tools in place prior to a pandemic outbreak, so as to make accurate and
-  timely estimates of key epidemiological parameters unique (in both time and
-  place) to any particular epidemic.
-        </span>
-      </li>
-      <li class="epi"><a
-        href="https://doi.org/10.1371/journal.pone.0014505">Diagnosis and
-          antiviral intervention strategies for mitigating an influenza
-          pandemic</a><br/>
-        <span class="author">
-          Moss R, McCaw JM, McVernon J
-        </span><br/>
-        <span class="journal">
-          <b>PLoS ONE</b> 6(2): e14505, Feb 2011.
-        </span><br/>
-        <span class="abstract">
-  We address specific real-world issues that must be considered in order to
-  improve pandemic preparedness policy in a practical and methodologically
-  sound way. Provision of antivirals on the scale proposed for an effective
-  response is infeasible using traditional public health outbreak management
-  and contact tracing approaches. The results indicate to change the
-  transmission dynamics of an influenza epidemic with an antiviral
-  intervention, a decentralised system is required for contact identification
-  and prophylaxis delivery, utilising a range of existing services and
-  infrastructure in a "whole of society" response.
-        </span>
-      </li>
-      <li class="renal"><a
-        href="https://doi.org/10.1016/j.physd.2009.08.015">Discrete network
-          models of interacting nephrons</a><br/>
-        <span class="author">
-          Moss R, Kazmierczak E, Kirley M, Harris PJ
-        </span><br/>
-        <span class="journal">
-          <b>Physica D</b>, 238(22): 2166&ndash;2176, Nov 2009.
-        </span><br/>
-        <span class="abstract">
-  Multi-nephron systems incorporate two competing coupling
-  mechanisms&mdash;vascular and hemodynamic&mdash;that enforce in-phase
-  and anti-phase synchronisations respectively. Using a two-nephron
-  model, we show that the strength of the hemodynamic coupling mechanism
-  and the arterial blood pressure have equivalent effects on the model.
-  The model is then used to demonstrate the interactions that arise
-  between the two coupling mechanisms. We conclude by arguing that our
-  approach is scalable to large numbers of nephrons, based on the
-  performance characteristics of the model.
-        </span>
-      </li>
-      <li class="renal"><a href="https://doi.org/10.1098/rsta.2008.0313">A
-          computational model for emergent dynamics in the kidney</a><br/>
-        <span class="author">
-          Moss R, Kazmierczak E, Kirley M, Harris PJ
-        </span><br/>
-        <span class="journal">
-          <b>Phil. Trans. R. Soc. A</b>, 367(1896): 2125&ndash;2140, Jun 2009.
-        </span><br/>
-        <span class="abstract">
-  Concepts from network automata are adapted and extended to model complex
-  biological systems. Specifically, systems of nephrons, the operational units
-  of the kidney, are modelled and the dynamics of such systems are explored. A
-  network model is used to investigate the stability of systems of nephrons and
-  interactions between nephrons. The intrinsic nephron control,
-  tubuloglomerular feedback, is included and the effects of coupling between
-  nephrons are explored in 2-, 8- and 72-nephron models.
-        </span>
-      </li>
-      <li class="renal"><a href="https://doi.org/10.1098/rsta.2008.0291">The
-          Virtual Kidney: an e-Science interface and Grid Portal</a><br/>
-        <span class="author">
-          Harris PJ, Buyya R, Chu X, Kobialka T, Kazmierczak E, Moss R,
-          Appelbe W, Hunter PJ, Thomas SR
-        </span><br/>
-        <span class="journal">
-          <b>Phil. Trans. R. Soc. A</b>, 367(1896): 2141&ndash;2159, Jun 2009.
-        </span><br/>
-        <span class="abstract">
-  The Virtual Kidney uses a web interface and distributed computing to provide
-  experimental scientists and analysts with access to computational simulations
-  and knowledge databases hosted in geographically separated laboratories. Users
-  can explore a variety of complex models without requiring the specific
-  programming environment in which applications have been developed.
-        </span>
-      </li>
-      <li class="renal"><a
-        href="http://repository.unimelb.edu.au/10187/3529">A Clockwork Kidney:
-          Using hierarchical dynamical networks to model emergent dynamics in
-          the kidney</a><br/>
-        <span class="author">
-          Moss R
-        </span><br/>
-        <span class="journal">
-          <b>Ph.D. Thesis</b>, Sep 2008.
-        </span><br/>
-        <span class="abstract">
-  The aim of this thesis is to provide a modelling approach and simulation
-  framework that allows for emergent dynamics in multi-nephron systems to be
-  studied. The ultimate intent of this research is to provide an approach to
-  renal modelling that is capable of predicting whole-kidney function from the
-  dynamics of individual nephrons, and can therefore be of practical use to
-  clinicians. This work demonstrates that, for the first time, simulation of
-  whole-kidney function from the dynamics of individual nephrons is tractable.
-  Furthermore, the work provides a basis for predicting emergent effects of
-  localised renal disease. With the continued development of this model, we hope
-  that significant insight will be gained into the onset, progression and
-  treatment of renal diseases.
-        </span>
-      </li>
-</ul>
-
-<script language="javascript">
-  hide_noscript();
-</script>
+<li class="epi">
+  Proportional multistate lifetable modelling of preventive interventions: concepts, code and worked examples<br/>
+  <span class="author">Blakely T&#9993;, <strong>Moss R</strong>, Collins J, Mizdrak A, Carvalho N, Wilson N, Geard N, Flaxman A</span><br/>
+  <span class="journal"><strong>Int J Epidemiol</strong>, accepted.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1016/j.epidem.2020.100393">Influencing public health policy with data-informed mathematical models of infectious diseases: Recent developments and new challenges</a><br/>
+  <span class="author">Alahmadi A<sup>&dagger;</sup>, Belet B<sup>&dagger;</sup>, Black AJ<sup>&dagger;</sup>, Cromer D<sup>&dagger;</sup>, Flegg JA<sup>&dagger;</sup>&#9993;, House T<sup>&dagger;</sup>&#9993;, Jayasundara P<sup>&dagger;</sup>, Keith JM<sup>&dagger;</sup>, McCaw JM<sup>&dagger;</sup>, <strong>Moss R</strong><sup>&dagger;</sup>, Ross JV<sup>&dagger;</sup>, Shearer FM<sup>&dagger;</sup>, Tun STT<sup>&dagger;</sup>, Walker J<sup>&dagger;</sup>, White L<sup>&dagger;</sup>, Whyte JM<sup>&dagger;</sup>, Yan AWC<sup>&dagger;</sup>, Zarebski AE<sup>&dagger;</sup></span><br/>
+  <span class="journal"><strong>Epidemics</strong>, accepted.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1093/cid/ciz1238">Influenza vaccine effectiveness against influenza-related mortality in Australian hospitalized patients: a propensity score analysis</a><br/>
+  <span class="author">Nation ML, <strong>Moss R</strong>, Spittal MJ, Kotsimbos T, Kelly PM, Cheng AC&#9993;</span><br/>
+  <span class="journal"><strong>Clin Infect Dis</strong>, accepted.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.3201/eid2612.202530">Modelling the impact of COVID-19 in Australia to inform transmission reducing measures and health system preparedness</a><br/>
+  <span class="author"><strong>Moss R</strong>, Wood J, Brown D, Shearer FM, Black AJ, Cheng AC, McCaw JM, McVernon J&#9993;</span><br/>
+  <span class="journal"><strong>Emerg Infect Dis</strong>, 26(12), 2020.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.7554/eLife.58785">Early analysis of the Australian COVID-19 epidemic</a><br/>
+  <span class="author">Price DJ&#9993;, Shearer FM&#9993;, Meehan MT, McBryde ES, <strong>Moss R</strong>, Golding N, Conway EJ, Dawson P, Cromer D, Wood J, Abbott S, McVernon J, McCaw JM</span><br/>
+  <span class="journal"><strong>eLife</strong>, 9: e58785, 2020.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1111/irv.12705">Coordinating the real-time use of global influenza activity data for better public health planning</a><br/>
+  <span class="author">Biggerstaff M<sup>&dagger;</sup>, Dahlgren FS<sup>&dagger;</sup>, Fitzner J<sup>&dagger;</sup>, George D<sup>&dagger;</sup>, Hammond A<sup>&dagger;</sup>, Hall I<sup>&dagger;</sup>, Haw D<sup>&dagger;</sup>, Imai N<sup>&dagger;</sup>, Johansson M<sup>&dagger;</sup>, Kramer S<sup>&dagger;</sup>, McCaw JM<sup>&dagger;</sup>, <strong>Moss R</strong><sup>&dagger;</sup>, Pebody R<sup>&dagger;</sup>, Read JM<sup>&dagger;</sup>, Reed C<sup>&dagger;</sup>, Reich NG<sup>&dagger;</sup>, Riley S<sup>&dagger;</sup>&#9993;, Vandemaele K<sup>&dagger;</sup>&#9993;, Viboud C<sup>&dagger;</sup>, Wu JT<sup>&dagger;</sup></span><br/>
+  <span class="journal"><strong>Influenza Other Respir Viruses</strong>, 14(2): 105–110, 2020.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1371/journal.pmed.1003018">Infectious disease pandemic planning and response: Incorporating decision analysis</a><br/>
+  <span class="author">Shearer FM, <strong>Moss R</strong>, McVernon J, Ross JV, McCaw JM&#9993;</span><br/>
+  <span class="journal"><strong>PLoS Med</strong>, 17: e1003018, 2020.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1111/irv.12649">Optimal Timing of Influenza Vaccine during Pregnancy: a Systematic Review and Meta-Analysis</a><br/>
+  <span class="author">Cuningham W&#9993;, Geard N, Fielding JE, Braat S, Madhi SA, Nunes MC, Christian LM, Lin S-Y, Lee C-N, Yamaguchi K, Bisgaard H, Chawes B, Chao A-S, Blanchard-Rohner G, Schlaudecker EP, Fisher BM, McVernon J, <strong>Moss R</strong></span><br/>
+  <span class="journal"><strong>Influenza Other Respir Viruses</strong>, 13(5): 438–452, 2019.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1186/s12889-019-6968-x">What can urban mobility data reveal about the spatial distribution of infection in a single city?</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Naghizade E, Tomko M, Geard N</span><br/>
+  <span class="journal"><strong>BMC Public Health</strong>, 19: 656, 2019.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.33321/cdi.2019.43.7">Anatomy of a seasonal influenza epidemic forecast</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Zarebski AE, Dawson P, Franklin LJ, Birrell FA, McCaw JM</span><br/>
+  <span class="journal"><strong>Commun Dis Intell</strong>, 43: 1–14, 2019.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.3390/tropicalmed4010012">Accounting for healthcare-seeking behaviours and testing practices in real-time influenza forecasts</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Zarebski AE, Carlson SJ, McCaw JM</span><br/>
+  <span class="journal"><strong>Trop Med Infect Dis</strong>, 4(1): 12, 2019.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1111/1753-6405.12750">Epidemic forecasts as a tool for public health: interpretation and (re)calibration</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Fielding JE, Stephens N, McVernon J, Dawson P, McCaw JM</span><br/>
+  <span class="journal"><strong>Aust N Z J Public Health</strong>, 42(1): 69–76, 2018.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1016/j.idm.2016.12.004">Model selection for seasonal influenza forecasting</a><br/>
+  <span class="author">Zarebski AE, Dawson P, McCaw JM, <strong>Moss R</strong>&#9993;</span><br/>
+  <span class="journal"><strong>Infect Dis Mod</strong>, 2(1): 56–70, 2017.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1017/S0950268816002053">Retrospective forecasting of the 2010–2014 Melbourne influenza seasons using multiple surveillance systems</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Zarebski AE, Dawson P, McCaw JM</span><br/>
+  <span class="journal"><strong>Epidemiol Infect</strong>, 145(1): 156–169, 2017.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1186/s12879-016-1866-7">Reducing disease burden in an influenza pandemic by targeted delivery of neuraminidase inhibitors: mathematical models in the Australian context</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, McCaw JM, Cheng AC, Hurt AC, McVernon J</span><br/>
+  <span class="journal"><strong>BMC Infect Dis</strong>, 16(1): 552, 2016.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1371/journal.pntd.0005018">Model-informed risk assessment and decision making for an emerging infectious disease in the Asia-Pacific region</a><br/>
+  <span class="author"><strong>Moss R</strong>, Hickson RI, McVernon J, McCaw JM, Hort K, Black J, Madden JR, Tran NH, McBryde ES, Geard N&#9993;</span><br/>
+  <span class="journal"><strong>PLoS Negl Trop Dis</strong>, 10(9): e0005018, 2016.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1111/irv.12376">Forecasting influenza outbreak dynamics in Melbourne from Internet search query surveillance data</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Zarebski AE, Dawson P, McCaw JM</span><br/>
+  <span class="journal"><strong>Influenza Other Respir Viruses</strong>, 10(4): 314–323, 2016.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1371/journal.pcbi.1004334">Innate immunity and the inter-exposure interval determine the dynamics of secondary influenza virus infection and explain observed viral hierarchies</a><br/>
+  <span class="author">Cao P, Yan AWC, Heffernan JM, Petrie S, <strong>Moss R</strong>, Carolan LA, Guarnaccia TA, Kelso A, Barr IG, McVernon J, Laurie KL, McCaw JM&#9993;</span><br/>
+  <span class="journal"><strong>PLoS Comp Biol</strong>, 11(8): e1004334, 2015.</span><br/>
+</li>
+<li class="renal">
+  <a href="https://doi.org/10.1152/ajprenal.00500.2013">Dominant factors that govern pressure natriuresis in diuresis and antidiuresis: a mathematical model</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Layton AT</span><br/>
+  <span class="journal"><strong>AJP Renal Physiol</strong>, 306(9): F952–F969, 2014.</span><br/>
+</li>
+<li class="renal">
+  <a href="https://doi.org/10.1152/ajprenal.00089.2013">Hormonal regulation of salt and water excretion: a mathematical model of whole-kidney function and pressure-natriuresis</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Thomas SR</span><br/>
+  <span class="journal"><strong>AJP Renal Physiol</strong>, 306(2): F224–248, 2014.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1016/j.epidem.2012.12.002">Drivers and consequences of influenza antiviral resistant-strain emergence in a capacity-constrained pandemic response</a><br/>
+  <span class="author">Dafilis MP&#9993;, <strong>Moss R</strong>, McVernon J, McCaw JM</span><br/>
+  <span class="journal"><strong>Epidemics</strong>, 4(4): 219–226, 2012.</span><br/>
+</li>
+<li class="renal">
+  <a href="https://doi.org/10.1371/journal.pcbi.1002571">Virtual Patients and Sensitivity Analysis of the Guyton Model of Blood Pressure Regulation: Towards Individualized Models of Whole-Body Physiology</a><br/>
+  <span class="author"><strong>Moss R</strong>, Grosse T, Marchant I, Lassau N, Gueyffier F, Thomas SR&#9993;</span><br/>
+  <span class="journal"><strong>PLoS Comp Biol</strong>, 8(6): e1002571, 2012.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.2471/BLT.11.093419">Likely effectiveness of pharmaceutical and non-pharmaceutical interventions for mitigating influenza virus transmission in Mongolia</a><br/>
+  <span class="author">Bolton KJ&#9993;, McCaw JM, <strong>Moss R</strong>, Morris RS, Wang S, Burma A, Darma B, Narangerel D, Nymadawa P, McVernon J</span><br/>
+  <span class="journal"><strong>Bull WHO</strong>, 90(4): 264–271, 2012.</span><br/>
+</li>
+<li class="renal">
+  <a href="https://doi.org/10.1016/j.pbiomolbio.2011.06.008">Integration of detailed modules in a core model of body fluid homeostasis and blood pressure regulation</a><br/>
+  <span class="author">Hernández AI&#9993;, Le Rolle V, Ojeda D, Baconnier P, Fontecave-Jallon J, Guillaud F, Grosse T, <strong>Moss R</strong>, Hannaert P, Thomas SR</span><br/>
+  <span class="journal"><strong>Prog Biophys Mol Biol</strong>, 107(1): 169–182, 2011.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1111/j.1750-2659.2011.00209.x">A decision support tool for evaluating the impact of a diagnostic-capacity and antiviral-delivery constrained intervention strategy on an influenza pandemic</a><br/>
+  <span class="author">McCaw JM&#9993;, <strong>Moss R</strong>, McVernon J</span><br/>
+  <span class="journal"><strong>Influenza Other Respir Viruses</strong>, 5(Suppl. 1): 212–215, 2011.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1371/journal.pone.0014505">Diagnosis and Antiviral Intervention Strategies for Mitigating an Influenza Epidemic</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, McCaw JM, McVernon J</span><br/>
+  <span class="journal"><strong>PLoS ONE</strong>, 6(2): e14505, 2011.</span><br/>
+</li>
+<li class="renal">
+  <a href="https://doi.org/10.1016/j.physd.2009.08.015">Discrete network models of interacting nephrons</a><br/>
+  <span class="author"><strong>Moss R</strong>&#9993;, Kazmierczak E, Kirley M, Harris PJ</span><br/>
+  <span class="journal"><strong>Physica D</strong>, 238(22): 2166–2176, 2009.</span><br/>
+</li>
+<li class="renal">
+  <a href="https://doi.org/10.1098/rsta.2008.0291">The Virtual Kidney: an e-Science interface and Grid Portal</a><br/>
+  <span class="author">Harris PJ&#9993;, Buyya R, Chu X, Kobialka T, Kazmierczak E, <strong>Moss R</strong>, Appelbe W, Hunter PJ, Thomas SR</span><br/>
+  <span class="journal"><strong>Phil Trans R Soc A</strong>, 367(1896): 2141–2159, 2009.</span><br/>
+</li>
+<li class="renal">
+  <a href="https://doi.org/10.1098/rsta.2008.0313">A computational model for emergent dynamics in the kidney</a><br/>
+  <span class="author"><strong>Moss R</strong>, Kazmierczak E&#9993;, Kirley M, Harris PJ</span><br/>
+  <span class="journal"><strong>Phil Trans R Soc A</strong>, 367(1896): 2125–2140, 2009.</span><br/>
+</li></ul>
