@@ -9,11 +9,6 @@ title: Publications
   <span class="journal"><strong>Int J Epidemiol</strong>, accepted.</span><br/>
 </li>
 <li class="epi">
-  <a href="https://doi.org/10.1016/j.epidem.2020.100393">Influencing public health policy with data-informed mathematical models of infectious diseases: Recent developments and new challenges</a><br/>
-  <span class="author">Alahmadi A<sup>&dagger;</sup>, Belet B<sup>&dagger;</sup>, Black AJ<sup>&dagger;</sup>, Cromer D<sup>&dagger;</sup>, Flegg JA<sup>&dagger;</sup>&#9993;, House T<sup>&dagger;</sup>&#9993;, Jayasundara P<sup>&dagger;</sup>, Keith JM<sup>&dagger;</sup>, McCaw JM<sup>&dagger;</sup>, <strong>Moss R</strong><sup>&dagger;</sup>, Ross JV<sup>&dagger;</sup>, Shearer FM<sup>&dagger;</sup>, Tun STT<sup>&dagger;</sup>, Walker J<sup>&dagger;</sup>, White L<sup>&dagger;</sup>, Whyte JM<sup>&dagger;</sup>, Yan AWC<sup>&dagger;</sup>, Zarebski AE<sup>&dagger;</sup></span><br/>
-  <span class="journal"><strong>Epidemics</strong>, accepted.</span><br/>
-</li>
-<li class="epi">
   <a href="https://doi.org/10.1093/cid/ciz1238">Influenza vaccine effectiveness against influenza-related mortality in Australian hospitalized patients: a propensity score analysis</a><br/>
   <span class="author">Nation ML, <strong>Moss R</strong>, Spittal MJ, Kotsimbos T, Kelly PM, Cheng AC&#9993;</span><br/>
   <span class="journal"><strong>Clin Infect Dis</strong>, accepted.</span><br/>
@@ -22,6 +17,11 @@ title: Publications
   <a href="https://doi.org/10.3201/eid2612.202530">Modelling the impact of COVID-19 in Australia to inform transmission reducing measures and health system preparedness</a><br/>
   <span class="author"><strong>Moss R</strong>, Wood J, Brown D, Shearer FM, Black AJ, Cheng AC, McCaw JM, McVernon J&#9993;</span><br/>
   <span class="journal"><strong>Emerg Infect Dis</strong>, 26(12), 2020.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1016/j.epidem.2020.100393">Influencing public health policy with data-informed mathematical models of infectious diseases: Recent developments and new challenges</a><br/>
+  <span class="author">Alahmadi A<sup>&dagger;</sup>, Belet B<sup>&dagger;</sup>, Black AJ<sup>&dagger;</sup>, Cromer D<sup>&dagger;</sup>, Flegg JA<sup>&dagger;</sup>&#9993;, House T<sup>&dagger;</sup>&#9993;, Jayasundara P<sup>&dagger;</sup>, Keith JM<sup>&dagger;</sup>, McCaw JM<sup>&dagger;</sup>, <strong>Moss R</strong><sup>&dagger;</sup>, Ross JV<sup>&dagger;</sup>, Shearer FM<sup>&dagger;</sup>, Tun STT<sup>&dagger;</sup>, Walker J<sup>&dagger;</sup>, White L<sup>&dagger;</sup>, Whyte JM<sup>&dagger;</sup>, Yan AWC<sup>&dagger;</sup>, Zarebski AE<sup>&dagger;</sup></span><br/>
+  <span class="journal"><strong>Epidemics</strong>, 32: 100393, 2020.</span><br/>
 </li>
 <li class="epi">
   <a href="https://doi.org/10.7554/eLife.58785">Early analysis of the Australian COVID-19 epidemic</a><br/>
