@@ -16,8 +16,8 @@ a model comprehensible, hence the proliferation of
 experiments.
 
 The importance of clear, concise and
-[helpful documentation](https://www.divio.com/blog/documentation/) is also
-[paramount](http://jacobian.org/writing/great-documentation/) to ensuring a
+[helpful documentation](https://web.archive.org/web/20200606231144/https://documentation.divio.com/) is also
+[paramount](https://web.archive.org/web/20200618075304/https://jacobian.org/tags/great-documentation/) to ensuring a
 published model and the accompanying simulations are sufficiently
 well-described that the published results can be replicated independently of
 the original model implementation.
