@@ -4,19 +4,19 @@ title: Publications
 
 <ul class="publication-list">
 <li class="epi">
-  Proportional multistate lifetable modelling of preventive interventions: concepts, code and worked examples<br/>
-  <span class="author">Blakely T&#9993;, <strong>Moss R</strong>, Collins J, Mizdrak A, Carvalho N, Wilson N, Geard N, Flaxman A</span><br/>
-  <span class="journal"><strong>Int J Epidemiol</strong>, accepted.</span><br/>
-</li>
-<li class="epi">
   <a href="https://doi.org/10.1093/cid/ciz1238">Influenza vaccine effectiveness against influenza-related mortality in Australian hospitalized patients: a propensity score analysis</a><br/>
   <span class="author">Nation ML, <strong>Moss R</strong>, Spittal MJ, Kotsimbos T, Kelly PM, Cheng AC&#9993;</span><br/>
   <span class="journal"><strong>Clin Infect Dis</strong>, accepted.</span><br/>
 </li>
 <li class="epi">
-  <a href="https://doi.org/10.3201/eid2612.202530">Modelling the impact of COVID-19 in Australia to inform transmission reducing measures and health system preparedness</a><br/>
+  <a href="https://doi.org/10.3201/eid2612.202530">Coronavirus Disease Model to Inform Transmission Reducing Measures and Health System Preparedness, Australia</a><br/>
   <span class="author"><strong>Moss R</strong>, Wood J, Brown D, Shearer FM, Black AJ, Cheng AC, McCaw JM, McVernon J&#9993;</span><br/>
   <span class="journal"><strong>Emerg Infect Dis</strong>, 26(12), 2020.</span><br/>
+</li>
+<li class="epi">
+  <a href="https://doi.org/10.1093/ije/dyaa132">Proportional multistate lifetable modelling of preventive interventions: concepts, code and worked examples</a><br/>
+  <span class="author">Blakely T&#9993;, <strong>Moss R</strong>, Collins J, Mizdrak A, Carvalho N, Wilson N, Geard N, Flaxman A</span><br/>
+  <span class="journal"><strong>Int J Epidemiol</strong>, 2020.</span><br/>
 </li>
 <li class="epi">
   <a href="https://doi.org/10.1016/j.epidem.2020.100393">Influencing public health policy with data-informed mathematical models of infectious diseases: Recent developments and new challenges</a><br/>
