@@ -3,6 +3,13 @@ title: Teaching
 category: teaching
 ---
 
+## 2020, Semester 2
+
+### Our Planet, Our Health II (UNIB20020)
+
+I was invited to give a lecture about seasonal and pandemic influenza, human and animal surveillance systems, and how we can use mathematical models to inform pandemic preparedness and response (including the COVID-19 pandemic).
+This was followed by a Q&A session, in which the students asked some excellent questions.
+
 ## 2018, Semester 1
 
 ### Declarative Programming (COMP90048)
