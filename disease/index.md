@@ -21,5 +21,8 @@ what is good for the population is good for the country.
 This work is aligned with the *Understanding and controlling influenza and
 other respiratory viruses* theme of the [PRISM²](http://prism.edu.au/) Centre
 for Research Excellence.
-See my [research statement]({{ site.baseurl }}/portfolio/research/#healthcare-policies-and-epidemics)
-for more details.
+
+The follow open source software packages have been produced from this work:
+
+* [pypfilt](https://pypfilt.readthedocs.io/en/latest/): a bootstrap particle filter for Python.
+* [epifx](https://epifx.readthedocs.io/en/latest/): an epidemic forecasting package for Python.
