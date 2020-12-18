@@ -4,6 +4,16 @@ title: Publications
 
 <ul class="publication-list">
 <li class="epi">
+  Constructing an ethical framework for priority allocation of pandemic vaccines<br/>
+  <span class="author">Sullivan SG&#9993;, Fielding JE, Beard F, Macartney K, Williams J, Dawson A, Gilbert GL, Massey P, Crooks K, <strong>Moss R</strong>, McCaw JM, McVernon J</span><br/>
+  <span class="journal"><strong>Vaccine</strong>, accepted.</span><br/>
+</li>
+<li class="epi">
+  Priority allocation of pandemic influenza vaccines in Australia - recommendations of 3 Community Juries<br/>
+  <span class="author">Degeling C&#9993;, Williams JH, Carter SM, <strong>Moss R</strong>, Massey P, Brown D, Gilbert GL, Shih P, Braunack-Mayer A, Crooks K, McVernon J</span><br/>
+  <span class="journal"><strong>Vaccine</strong>, accepted.</span><br/>
+</li>
+<li class="epi">
   <a href="https://doi.org/10.1093/cid/ciz1238">Influenza vaccine effectiveness against influenza-related mortality in Australian hospitalized patients: a propensity score analysis</a><br/>
   <span class="author">Nation ML, <strong>Moss R</strong>, Spittal MJ, Kotsimbos T, Kelly PM, Cheng AC&#9993;</span><br/>
   <span class="journal"><strong>Clin Infect Dis</strong>, accepted.</span><br/>
@@ -11,7 +21,7 @@ title: Publications
 <li class="epi">
   <a href="https://doi.org/10.3201/eid2612.202530">Coronavirus Disease Model to Inform Transmission Reducing Measures and Health System Preparedness, Australia</a><br/>
   <span class="author"><strong>Moss R</strong>, Wood J, Brown D, Shearer FM, Black AJ, Cheng AC, McCaw JM, McVernon J&#9993;</span><br/>
-  <span class="journal"><strong>Emerg Infect Dis</strong>, 26(12), 2020.</span><br/>
+  <span class="journal"><strong>Emerg Infect Dis</strong>, 26(12): 2844–2853, 2020.</span><br/>
 </li>
 <li class="epi">
   <a href="https://doi.org/10.1093/ije/dyaa132">Proportional multistate lifetable modelling of preventive interventions: concepts, code and worked examples</a><br/>
