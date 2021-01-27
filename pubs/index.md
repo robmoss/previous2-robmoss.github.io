@@ -4,19 +4,19 @@ title: Publications
 
 <ul class="publication-list">
 <li class="epi">
-  Constructing an ethical framework for priority allocation of pandemic vaccines<br/>
+  <a href="https://doi.org/10.1016/j.vaccine.2020.12.053">Constructing an ethical framework for priority allocation of pandemic vaccines</a><br/>
   <span class="author">Sullivan SG&#9993;, Fielding JE, Beard F, Macartney K, Williams J, Dawson A, Gilbert GL, Massey P, Crooks K, <strong>Moss R</strong>, McCaw JM, McVernon J</span><br/>
-  <span class="journal"><strong>Vaccine</strong>, accepted.</span><br/>
+  <span class="journal"><strong>Vaccine</strong>, 39(5): 797–804, 2021.</span><br/>
 </li>
 <li class="epi">
-  Priority allocation of pandemic influenza vaccines in Australia - recommendations of 3 Community Juries<br/>
+  <a href="https://doi.org/10.1016/j.vaccine.2020.12.010">Priority allocation of pandemic influenza vaccines in Australia - recommendations of 3 Community Juries</a><br/>
   <span class="author">Degeling C&#9993;, Williams JH, Carter SM, <strong>Moss R</strong>, Massey P, Brown D, Gilbert GL, Shih P, Braunack-Mayer A, Crooks K, McVernon J</span><br/>
-  <span class="journal"><strong>Vaccine</strong>, accepted.</span><br/>
+  <span class="journal"><strong>Vaccine</strong>, 39(2): 255–262, 2021.</span><br/>
 </li>
 <li class="epi">
   <a href="https://doi.org/10.1093/cid/ciz1238">Influenza vaccine effectiveness against influenza-related mortality in Australian hospitalized patients: a propensity score analysis</a><br/>
   <span class="author">Nation ML, <strong>Moss R</strong>, Spittal MJ, Kotsimbos T, Kelly PM, Cheng AC&#9993;</span><br/>
-  <span class="journal"><strong>Clin Infect Dis</strong>, accepted.</span><br/>
+  <span class="journal"><strong>Clin Infect Dis</strong>, 72(1): 99–107, 2021.</span><br/>
 </li>
 <li class="epi">
   <a href="https://doi.org/10.3201/eid2612.202530">Coronavirus Disease Model to Inform Transmission Reducing Measures and Health System Preparedness, Australia</a><br/>
@@ -26,7 +26,7 @@ title: Publications
 <li class="epi">
   <a href="https://doi.org/10.1093/ije/dyaa132">Proportional multistate lifetable modelling of preventive interventions: concepts, code and worked examples</a><br/>
   <span class="author">Blakely T&#9993;, <strong>Moss R</strong>, Collins J, Mizdrak A, Carvalho N, Wilson N, Geard N, Flaxman A</span><br/>
-  <span class="journal"><strong>Int J Epidemiol</strong>, 2020.</span><br/>
+  <span class="journal"><strong>Int J Epidemiol</strong>, 49(5): 1624–1636, 2020.</span><br/>
 </li>
 <li class="epi">
   <a href="https://doi.org/10.1016/j.epidem.2020.100393">Influencing public health policy with data-informed mathematical models of infectious diseases: Recent developments and new challenges</a><br/>
