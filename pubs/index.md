@@ -157,4 +157,9 @@ title: Publications
   <a href="https://doi.org/10.1098/rsta.2008.0313">A computational model for emergent dynamics in the kidney</a><br/>
   <span class="author"><strong>Moss R</strong>, Kazmierczak E&#9993;, Kirley M, Harris PJ</span><br/>
   <span class="journal"><strong>Phil Trans R Soc A</strong>, 367(1896): 2125–2140, 2009.</span><br/>
+</li>
+<li class="epi">
+  <a href="http://repository.unimelb.edu.au/10187/3529">A Clockwork Kidney: Using hierarchical dynamical networks to model emergent dynamics in the kidney</a><br/>
+  <span class="author"><strong>Moss R</strong></span><br/>
+  <span class="journal"><strong>Ph.D. Thesis</strong>, 2008.</span><br/>
 </li></ul>
