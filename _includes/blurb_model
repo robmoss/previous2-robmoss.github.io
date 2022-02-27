@@ -7,6 +7,7 @@ Please check each respository for details.
 <nav>
 <a href="https://bitbucket.org/robmoss/" title="Bitbucket profile"><img src="{{ site.baseurl }}{{ site.url_img }}/logo-bb.png"></a>
 <a href="http://github.com/robmoss/" title="Github profile"><img src="{{ site.baseurl }}{{ site.url_img }}/logo-gh.png"></a>
+<a href="https://gitlab.unimelb.edu.au/rgmoss/" title="Gitlab profile"><img src="{{ site.baseurl }}{{ site.url_img }}/logo-gl.png"></a>
 </nav>
 
 <hr class="separator">
